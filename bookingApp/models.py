@@ -80,8 +80,10 @@ class Trip(models.Model):
     institution = models.ForeignKey(Institution, on_delete=models.CASCADE)
     station = models.ForeignKey(PowerStation, on_delete=models.CASCADE)
     time = models.CharField(choices=time_choices, max_length=10)
-    #date = models.DateField();
+    date = models.DateField();
     approved = models.BooleanField(default=False)
+
+    
 
     def __str__(self):
         return ("{} booked by {} on {} at {}".format(self.station, self.institution, self.date, self.time))
