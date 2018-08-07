@@ -1,0 +1,26 @@
+{% extends 'bookingApp/base.html' %}
+{% block title %}
+Book Trip
+{% endblock %}
+{% block content %}
+    <div>
+        <p> I have read and understood the terms and conditions as shown below
+            <form name="tnc_form">
+            <input type="checkbox" name="tnc_checkbox"/>
+    </form>
+        </p>
+        {% if tnc_form.tnc_checkbox.value %}
+        what up
+        {% else %}
+        (PLEASE NOTE: BOOKING IS DONE 3 MONTHS IN ADVANCE)
+
+        You are at the same time advised that on agreeing to this visit, the Kenya Electricity Generating Co. Ltd. accepts no liability for any accident or injury that might occur to any member of the visiting party during the tour,
+        and you are requested therefore to exercise caution while moving within the station.  Visitors are advised NOT to wear high-heeled pointed and open shoes, as the floor could be slippery.  For safety and operational reasons,
+        you will be required to present a certified list of a maximum of   80 visitors who will be allowed in. Any excess visitors and children under 10(ten) years will not be allowed in.  Please note that while entering our premises
+        ID cards are mandatory for all adults, you will also be subjected to security checks and may be required to deposit certain  items with security officers.  Guardians are advised to co-operate with the officer leading the tour.
+        Kindly note that there’s no provision for visiting during Weekends and Public Holidays.
+        {% endif %}
+
+    </div>
+
+{% endblock %}
