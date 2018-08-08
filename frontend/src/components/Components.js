@@ -7,7 +7,7 @@ import {CalendarComponent} from "./CalendarComponent";
 
 
 
-const host ="http://127.0.0.1:8080/";
+const host ="http://edutrip.herokuapp.com/";
 
 class PowerStationsProvider extends Component{
     //onRendering get All Stations
