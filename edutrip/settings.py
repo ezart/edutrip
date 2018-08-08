@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6416%f4+&^u_(@%xs17^8r)ymmat^(4rj*pc%9lwsa2_rgfm2u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = [ "edutrip.herokuapp.com","127:0.0.1"]
+ALLOWED_HOSTS = ['127.0.0.1','.herokuapp.com' ]
 
 
 # Application definition
@@ -90,13 +90,12 @@ WSGI_APPLICATION = 'edutrip.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'edutrip',
-        'USER': 'admin',
-        'PASSWORD': 'Manu-Edutrip93',
+        'USER': 'emmanuel',
+        'PASSWORD': 'emmanue93',
         'HOST': 'localhost',
         'PORT': '',
     }

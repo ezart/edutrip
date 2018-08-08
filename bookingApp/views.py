@@ -59,9 +59,6 @@ class ViewFullyBookedDays(generics.ListAPIView):
     serializer_class = TripSerializer
 
     def get_queryset(self):
-        """
-
-        """
         dates = []
         name = self.kwargs['station']
         station = PowerStation.objects.get(name=name)

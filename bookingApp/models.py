@@ -1,11 +1,6 @@
 from django.db import models
 from django.core.mail import send_mail
 
-"""
-institution model. Details of the institution. Should have a valid email to which a booking
-confirmation will be send
-"""
-
 
 class Institution(models.Model):
     name = models.CharField(max_length=50, blank=False)
@@ -17,21 +12,14 @@ class Institution(models.Model):
     def __str__(self):
         return self.name
 
-
-"""
-the should be just a single instance of a powerstation. Each powerstation should show when it is 
-and when it isn't available. is_available method shows whether the powerstation is  available
-"""
-
-
 class PowerStation(models.Model):
     station_choices = (
-        ("Masinga", "Masinga"),
-        ("Kamburu", "Kamburu"),
-        ("Gitaru", "Gitaru"),
-        ("Kindaruma", "Kindaruma"),
-        ("Kiambere", "Kiambere")
-    )
+            ("Masinga", "Masinga"),
+            ("Kamburu", "Kamburu"),
+            ("Gitaru", "Gitaru"),
+            ("Kindaruma", "Kindaruma"),
+            ("Kiambere", "Kiambere")
+        )
     name = models.CharField(max_length=20, choices=station_choices)
     available = models.BooleanField(default=True)
     unavailable_from = models.DateField(blank=True, null=True)
@@ -58,18 +46,6 @@ class PowerStation(models.Model):
         return True
 
 
-"""
-create date of trip model.
-use date to determine if date is station is available
-"""
-
-"""
-Trip
-"""
-
-
-# method to populate a tuple of available stations of a date
-
 
 
 class Trip(models.Model):
@@ -80,10 +56,8 @@ class Trip(models.Model):
     institution = models.ForeignKey(Institution, on_delete=models.CASCADE)
     station = models.ForeignKey(PowerStation, on_delete=models.CASCADE)
     time = models.CharField(choices=time_choices, max_length=10)
-    date = models.DateField();
+    date = models.DateTimeField();
     approved = models.BooleanField(default=False)
-
-    
 
     def __str__(self):
         return ("{} booked by {} on {} at {}".format(self.station, self.institution, self.date, self.time))
@@ -111,8 +85,7 @@ class Trip(models.Model):
     # approve the trip request be done by admin
     def approve(self):
         self.approved = True
-        #sent email to the sender that their request has been approved
-
+        # sent email to the sender that their request has been approved
 
     def save(self, *args, **kwargs):
         if not self.station.is_available(self.date):
@@ -124,5 +97,8 @@ class Trip(models.Model):
         elif self.time == "2:00 p.m." and self.is_booked_afternoon():
             raise PermissionError("Station is booked in the afternnon")
         else:
-            #send email first
+            # send email first
             super(Trip, self).save(*args, **kwargs)
+
+
+

@@ -7,7 +7,7 @@ django-webpack-loader==0.6.0
 djangorestframework==3.8.2
 docopt==0.6.2
 idna==2.7
+psycopg2==2.7.5
 pytz==2018.5
 requests==2.19.1
 urllib3==1.23
-psycopg2==2.7.2
