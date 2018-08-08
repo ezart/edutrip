@@ -1,1 +1,1 @@
-web: gunicorn edutrip.wsgi --log-file -g
+web: gunicorn edutrip.wsgi
