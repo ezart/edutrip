@@ -20,6 +20,6 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index', include('frontend.urls'), name="frontend"),
+    path('', include('frontend.urls'), name="frontend"),
     path('',include('bookingApp.urls'),name="bookingApp"),
 ]
