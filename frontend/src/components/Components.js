@@ -424,6 +424,7 @@ class BookTrip extends Component{
                 headers: {
                     'Accept': 'application/json',
                     'Content-type': 'application/json',
+                    'X-CSRFToken': csrftoken,
                 },
                 body: JSON.stringify({
                         institution: institution,
