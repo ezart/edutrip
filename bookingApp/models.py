@@ -83,6 +83,16 @@ class Trip(models.Model):
             return False
 
     # approve the trip request be done by admin
+    def send_request_message(self):
+        subject ="Request to book powerstation for an educational tour."
+        message = "Your request to visit {} on {} at {} has been received. We will notify, you once your request has been reviewed.".format(self.station.name,self.date,self.time)
+        email_from = "ecom193@gmail.com"
+        email_to = self.institution.email
+        send_mail(subject,
+                  message,
+                  email_from,
+                  email_to)
+
     def approve(self):
         self.approved = True
         # sent email to the sender that their request has been approved
@@ -97,8 +107,10 @@ class Trip(models.Model):
         elif self.time == "2:00 p.m." and self.is_booked_afternoon():
             raise PermissionError("Station is booked in the afternnon")
         else:
-            # send email first
             super(Trip, self).save(*args, **kwargs)
+            #send mail
+            self.send_request_message()
+
 
 
 
