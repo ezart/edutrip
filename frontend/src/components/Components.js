@@ -6,7 +6,23 @@ import {CalendarComponent} from "./CalendarComponent";
 
 
 
-
+// using jQuery
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+var csrftoken = getCookie('csrftoken');
 const host ="http://edutrip.herokuapp.com/";
 
 class PowerStationsProvider extends Component{
@@ -139,6 +155,7 @@ class Institution extends Component{
                     headers: {
                         'Accept': 'application/json',
                         'Content-type': 'application/json',
+                        'X-CSRFToken': csrftoken
                     },
                     body: JSON.stringify({
                         name: this.state.name,
@@ -173,6 +190,7 @@ class Institution extends Component{
         return(
             <div>
                 <form>
+
                     <div className="form-group">
                         <label htmlFor="name">Institution  </label>
                         <input id="name" type="text" name="name" onChange={(e)=>this.setState({name:e.target.value})}/>
