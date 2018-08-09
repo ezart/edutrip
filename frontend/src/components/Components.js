@@ -31,36 +31,6 @@ class PowerStationsProvider extends Component{
     }
 }
 
-class PowerStationForm extends Component{
-    constructor(props){
-        super(props);
-        this.state ={
-            station:null
-        }
-        this.handleSelect = this.handleSelect.bind(this);
-    }
-
-    handleSelect(e) {
-        const station = e.target.value;
-
-    }
-
-    render(){
-        return(
-          <div>
-
-                <select onChange={this.handleSelect}>
-              {
-                  this.props.stations.map(
-                      station =>
-                      <option key={station.name} value={JSON.stringify(station)}>{station.name}</option>
-                  )
-              }
-          </select>
-          </div>
-        );
-    }
-}
 
 
 class Trips extends Component{
@@ -346,12 +316,16 @@ class PowerStation extends Component{
               {form}
             <div>
                 <CalendarComponent  className="calendar" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
-                {key}
+                <div>
+                    {key}
+                </div>
             </div>
               <div  className="btn-group btn-group-toggle">
-              {this.state.date != '' && timeForm}
+                  {this.state.date != '' && timeForm}
               </div>
-            <input type="button" value="Select Station and Date" onClick={this.submitStation} className="btn btn-primary"/>
+              <div>
+                <input type="button" value="Select Station and Date" onClick={this.submitStation} className="btn btn-primary"/>
+              </div>
           </div>
         );
     }
@@ -422,7 +396,13 @@ class BookTrip extends Component{
 
 
     render(){
-        const statement = "Book " + this.state.station.name + " on " + this.state.date +" at " + this.state.time +" for " + this.state.institution.id;
+        const statement = (
+            <div>
+                <h3>Book  {this.state.station.name } on  {this.state.date} at  {this.state.time} </h3>
+                <h3>School: {this.state.institution.name}  </h3>
+                <h3>Email: {this.state.institution.email}</h3>
+            </div>
+        );
         return(
             <div>
                 <h2>{statement}</h2>
