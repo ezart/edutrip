@@ -398,9 +398,9 @@ class BookTrip extends Component{
     render(){
         const statement = (
             <div>
-                <h3>Book  {this.state.station.name } on  {this.state.date} at  {this.state.time} </h3>
-                <h3>School: {this.state.institution.name}  </h3>
-                <h3>Email: {this.state.institution.email}</h3>
+                <h2>Book  {this.state.station.name } on  {this.state.date} at  {this.state.time} </h2>
+                <h2>Institution: {this.state.institution.name}  </h2>
+                <h2>Email: {this.state.institution.email}</h2>
             </div>
         );
         return(
