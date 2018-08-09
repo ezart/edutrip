@@ -107,9 +107,10 @@ class Trip(models.Model):
         elif self.time == "2:00 p.m." and self.is_booked_afternoon():
             raise PermissionError("Station is booked in the afternnon")
         else:
+            self.send_request_message()
             super(Trip, self).save(*args, **kwargs)
             #send mail
-            self.send_request_message()
+
 
 
 
