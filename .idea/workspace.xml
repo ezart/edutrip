@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookingApp/models.py" afterPath="$PROJECT_DIR$/bookingApp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookingApp/urls.py" afterPath="$PROJECT_DIR$/bookingApp/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookingApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="653">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="e#358#374#0" expanded="false" />
               </folding>
@@ -42,12 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bookingApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +106,8 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="188" column="10" lean-forward="true" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+            <state relative-caret-position="398">
+              <caret line="373" column="49" lean-forward="true" selection-start-line="373" selection-start-column="49" selection-end-line="373" selection-end-column="49" />
               <folding>
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
@@ -119,7 +120,6 @@
                 <element signature="n#!!block;n#getDate#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getTime#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getInstitution#0;n#BookTrip#0" expanded="false" />
-                <element signature="n#!!block;n#sendBookingRequest#0;n#BookTrip#0" expanded="false" />
                 <element signature="e#11920#12384#0" expanded="false" />
                 <element signature="n#Container#0" expanded="false" />
               </folding>
@@ -161,7 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onRe</find>
       <find>all</find>
       <find>prop</find>
       <find>handleSelect</find>
@@ -191,6 +190,7 @@
       <find>debu</find>
       <find>weekend</find>
       <find>school</find>
+      <find>BookT</find>
     </findStrings>
     <replaceStrings>
       <replace>\</replace>
@@ -244,7 +244,6 @@
         <option value="$PROJECT_DIR$/../../../heroku/website/app/models.py" />
         <option value="$PROJECT_DIR$/bookingApp/admin.py" />
         <option value="$PROJECT_DIR$/bookingApp/serializers.py" />
-        <option value="$PROJECT_DIR$/bookingApp/urls.py" />
         <option value="$PROJECT_DIR$/bookingApp/views.py" />
         <option value="$PROJECT_DIR$/edutrip/settings.py" />
         <option value="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
@@ -254,6 +253,7 @@
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
         <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
         <option value="$PROJECT_DIR$/bookingApp/models.py" />
+        <option value="$PROJECT_DIR$/bookingApp/urls.py" />
       </list>
     </option>
   </component>
@@ -922,7 +922,7 @@
         <state relative-caret-position="527">
           <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
-            <element signature="e#308#317#0" expanded="true" />
+            <element signature="e#308#317#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -967,14 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookingApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/CalendarComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -991,10 +983,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bookingApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="e#358#374#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="188" column="10" lean-forward="true" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+        <state relative-caret-position="398">
+          <caret line="373" column="49" lean-forward="true" selection-start-line="373" selection-start-column="49" selection-end-line="373" selection-end-column="49" />
           <folding>
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
@@ -1007,19 +1009,18 @@
             <element signature="n#!!block;n#getDate#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getTime#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getInstitution#0;n#BookTrip#0" expanded="false" />
-            <element signature="n#!!block;n#sendBookingRequest#0;n#BookTrip#0" expanded="false" />
             <element signature="e#11920#12384#0" expanded="false" />
             <element signature="n#Container#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookingApp/models.py">
+    <entry file="file://$PROJECT_DIR$/bookingApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#358#374#0" expanded="false" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
