@@ -87,7 +87,7 @@ class Trip(models.Model):
         subject ="Request to book powerstation for an educational tour."
         message = "Your request to visit {} on {} at {} has been received. We will notify, you once your request has been reviewed.".format(self.station.name,self.date,self.time)
         email_from = "ecom193@gmail.com"
-        email_to = self.institution.email
+        email_to = [email_from,self.institution.email]
         send_mail(subject,
                   message,
                   email_from,
@@ -107,14 +107,9 @@ class Trip(models.Model):
         elif self.time == "2:00 p.m." and self.is_booked_afternoon():
             raise PermissionError("Station is booked in the afternnon")
         else:
-            send_mail(
-                "hi",
-                "there",
-                "ecom193@gmail.com",
-                "ezart193@gmail.com"
-            )
             super(Trip, self).save(*args, **kwargs)
             #send mail
+            self.send_request_message()
 
 
 
