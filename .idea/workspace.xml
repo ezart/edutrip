@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,25 +56,29 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="347" column="35" lean-forward="true" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
+            <state relative-caret-position="222">
+              <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
               <folding>
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
-                <element signature="n#Institution#0" expanded="false" />
                 <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
                 <element signature="n#!!block;n#render#0;n#Institution#0" expanded="false" />
-                <element signature="e#4341#4584#0" expanded="false" />
-                <element signature="e#6031#6723#0" expanded="false" />
+                <element signature="e#6143#6835#0" expanded="false" />
+                <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
-                <element signature="e#8248#8802#0" expanded="false" />
-                <element signature="e#8845#8981#0" expanded="false" />
-                <element signature="e#9452#10063#0" expanded="false" />
-                <element signature="e#11779#11934#0" expanded="false" />
-                <element signature="e#11953#12767#0" expanded="false" />
+                <element signature="n#!!block;n#render#0;n#PowerStation#0" expanded="false" />
+                <element signature="e#8360#8914#0" expanded="false" />
+                <element signature="e#8957#9093#0" expanded="false" />
+                <element signature="e#9414#10863#0" expanded="false" />
+                <element signature="e#9564#10175#0" expanded="false" />
+                <element signature="e#10908#11741#0" expanded="false" />
+                <element signature="e#10982#11324#0" expanded="false" />
+                <element signature="e#11347#11693#0" expanded="false" />
+                <element signature="e#11971#12126#0" expanded="false" />
+                <element signature="e#12145#12959#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -239,7 +244,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="2" />
-    <option name="width" value="1602" />
+    <option name="width" value="1600" />
     <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -631,10 +636,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1602" height="865" extended-state="0" />
+    <frame x="-7" y="2" width="1600" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22005044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22032829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26973686" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -664,13 +669,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/components/Components.js</url>
-          <line>112</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager />
@@ -1024,25 +1022,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="347" column="35" lean-forward="true" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
+        <state relative-caret-position="222">
+          <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
           <folding>
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
-            <element signature="n#Institution#0" expanded="false" />
             <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#Institution#0" expanded="false" />
-            <element signature="e#4341#4584#0" expanded="false" />
-            <element signature="e#6031#6723#0" expanded="false" />
+            <element signature="e#6143#6835#0" expanded="false" />
+            <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
-            <element signature="e#8248#8802#0" expanded="false" />
-            <element signature="e#8845#8981#0" expanded="false" />
-            <element signature="e#9452#10063#0" expanded="false" />
-            <element signature="e#11779#11934#0" expanded="false" />
-            <element signature="e#11953#12767#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#PowerStation#0" expanded="false" />
+            <element signature="e#8360#8914#0" expanded="false" />
+            <element signature="e#8957#9093#0" expanded="false" />
+            <element signature="e#9414#10863#0" expanded="false" />
+            <element signature="e#9564#10175#0" expanded="false" />
+            <element signature="e#10908#11741#0" expanded="false" />
+            <element signature="e#10982#11324#0" expanded="false" />
+            <element signature="e#11347#11693#0" expanded="false" />
+            <element signature="e#11971#12126#0" expanded="false" />
+            <element signature="e#12145#12959#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />

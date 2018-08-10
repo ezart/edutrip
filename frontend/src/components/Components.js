@@ -157,12 +157,13 @@ class Institution extends Component{
 
     render(){
         return(
-            <div>
-                <form>
+            <div className="row">
+                <div className="col-md-7">
+                    <form>
 
                     <div className="form-group">
                         <label htmlFor="name">Institution  </label>
-                        <input id="name" type="text" name="name" onChange={(e)=>this.setState({name:e.target.value})}/>
+                        <input  className="form-control" id="name" type="text" name="name" onChange={(e)=>this.setState({name:e.target.value})}/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="pobox"> P.O. BOX  </label>
@@ -184,6 +185,7 @@ class Institution extends Component{
                         <input className="form-control" type="button" value="Submit" onClick={this.onSubmit} className="btn btn-primary"/>
                     </div>
                 </form>
+                </div>
             </div>
         );
     }
@@ -342,6 +344,8 @@ class PowerStation extends Component{
                             <input type="radio" id="morning" name="time" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
                             10:00 a.m.
                           </label>
+                      </div>
+                      <div className="form-check">
                            <label className="form-check-label">
                            <input type="radio" id="afternoon" name="time" value="2:00 p.m." onChange={(e)=> this.setState({time:e.target.value})}/>
                                2:00 p.m.
