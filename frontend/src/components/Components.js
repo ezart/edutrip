@@ -339,7 +339,7 @@ class PowerStation extends Component{
           <div>
               <Trips station={this.state.station} onRender={this.getBookedDates}/>
               <PowerStationsProvider onRender={this.getStations} />
-              <div className="row">
+              
                   <div className="row">
                       <div className="col-md-12">
                         {form}
@@ -353,7 +353,7 @@ class PowerStation extends Component{
                           {key}
                       </div>
                   </div>
-              </div>
+
               <div  className="btn-group btn-group-toggle">
                     {this.state.date != '' && timeForm}
               </div>
