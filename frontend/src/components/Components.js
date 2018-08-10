@@ -511,7 +511,7 @@ export class Container extends Component{
         const institution = this.state.institution;
         return(
             <div>
-                {! this.station.station_is_selected && <PowerStation onSubmit={this.getFromPowerStation} /> }
+                {this.state.station_is_selected == false && <PowerStation onSubmit={this.getFromPowerStation} /> }
                 {this.state.station_is_selected &&
                 <Institution onSubmit={this.getFromInstitution}/>
                 }
