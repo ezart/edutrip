@@ -47,37 +47,6 @@ class PowerStationsProvider extends Component{
     }
 }
 
-class PowerStationForm extends Component{
-    constructor(props){
-        super(props);
-        this.state ={
-            station:null
-        }
-        this.handleSelect = this.handleSelect.bind(this);
-    }
-
-    handleSelect(e) {
-        const station = e.target.value;
-
-    }
-
-    render(){
-        return(
-          <div>
-
-                <select onChange={this.handleSelect}>
-              {
-                  this.props.stations.map(
-                      station =>
-                      <option key={station.name} value={JSON.stringify(station)}>{station.name}</option>
-                  )
-              }
-          </select>
-          </div>
-        );
-    }
-}
-
 
 class Trips extends Component{
     state ={
@@ -293,22 +262,26 @@ class PowerStation extends Component{
 
     render(){
 
-        const form = (<div>
-
-                <select onChange={this.handleSelect}>
-              {
-                  this.state.all_stations.map(
-                      station =>
-                      <option key={station.name} value={JSON.stringify(station)}>{station.name}</option>
-                  )
-              }
-          </select>
+        const form = (
+            <div className="form-group">
+                <label htmlFor="powerstationselect"> Select Power station </label>
+                <select onChange={this.handleSelect} className="form-control form-control-lg" id="powerstationselect">
+                    {
+                          this.state.all_stations.map(
+                              station =>
+                              <option key={station.name} value={JSON.stringify(station)}>{station.name}</option>
+                          )
+                    }
+                </select>
           </div>);
+
+
         const display = (
             <div>
                 <p> Book {this.state.station.name} on <i>{this.state.date}</i> at <i>{this.state.time}</i> </p>
             </div>
         );
+
         const half_booked_days =[];
         let timeForm;
         for(var obj of this.state.half_booked ){
@@ -357,23 +330,28 @@ class PowerStation extends Component{
             );
         }
 
+
         return(
           <div>
               <Trips station={this.state.station} onRender={this.getBookedDates}/>
-            <PowerStationsProvider onRender={this.getStations} />
-              {form}
-            <div>
-                <CalendarComponent  className="calendar" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
-                {key}
-            </div>
-              <div  className="btn-group btn-group-toggle">
-              {this.state.date != '' && timeForm}
+              <PowerStationsProvider onRender={this.getStations} />
+              <div>
+                  {form}
               </div>
-            <input type="button" value="Select Station and Date" onClick={this.submitStation} className="btn btn-primary"/>
+              <div>
+                    <CalendarComponent  className="calendar" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
+                    {key}
+                </div>
+              <div  className="btn-group btn-group-toggle">
+                    {this.state.date != '' && timeForm}
+              </div>
+              <input type="button" value="Select Station and Date" onClick={this.submitStation} className="btn btn-primary"/>
           </div>
         );
     }
 }
+
+
 
 class BookTrip extends Component{
     constructor(props){
