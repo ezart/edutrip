@@ -347,7 +347,7 @@ class PowerStation extends Component{
                   </div>
                   <div className="row">
                       <div className="col-md-7">
-                            <CalendarComponent  booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
+                            <CalendarComponent className="calendar" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
                       </div>
                       <div className="col-md-5">
                           {key}
