@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/frontend/css/main.css" afterPath="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,29 +52,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Components.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="376" column="0" lean-forward="true" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="329" column="14" lean-forward="true" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
               <folding>
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
                 <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
                 <element signature="e#4341#4584#0" expanded="false" />
-                <element signature="n#PowerStation#0" expanded="false" />
+                <element signature="e#5906#6598#0" expanded="false" />
                 <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
-                <element signature="n#!!block;n#render#0;n#PowerStation#0" expanded="false" />
                 <element signature="e#8123#8677#0" expanded="false" />
                 <element signature="e#8720#8856#0" expanded="false" />
                 <element signature="e#8974#9068#0" expanded="false" />
                 <element signature="e#9177#10364#0" expanded="false" />
-                <element signature="e#10409#10992#0" expanded="false" />
-                <element signature="e#12226#12348#0" expanded="false" />
+                <element signature="e#11308#11463#0" expanded="false" />
+                <element signature="e#11482#12296#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -108,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -132,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>handleSelect</find>
       <find>this.pro</find>
       <find>thi.</find>
       <find>Component{</find>
@@ -162,6 +160,7 @@
       <find>BookT</find>
       <find>allo</find>
       <find>disabled</find>
+      <find>timeFO</find>
     </findStrings>
     <replaceStrings>
       <replace>\</replace>
@@ -223,8 +222,8 @@
         <option value="$PROJECT_DIR$/bookingApp/models.py" />
         <option value="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
       </list>
     </option>
   </component>
@@ -671,12 +670,6 @@
           <line>112</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/components/Components.js</url>
-          <line>331</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="71" />
     </breakpoint-manager>
@@ -993,14 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1020,28 +1005,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="376" column="0" lean-forward="true" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+        <state relative-caret-position="245">
+          <caret line="329" column="14" lean-forward="true" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
           <folding>
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
             <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
             <element signature="e#4341#4584#0" expanded="false" />
-            <element signature="n#PowerStation#0" expanded="false" />
+            <element signature="e#5906#6598#0" expanded="false" />
             <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#PowerStation#0" expanded="false" />
             <element signature="e#8123#8677#0" expanded="false" />
             <element signature="e#8720#8856#0" expanded="false" />
             <element signature="e#8974#9068#0" expanded="false" />
             <element signature="e#9177#10364#0" expanded="false" />
-            <element signature="e#10409#10992#0" expanded="false" />
-            <element signature="e#12226#12348#0" expanded="false" />
+            <element signature="e#11308#11463#0" expanded="false" />
+            <element signature="e#11482#12296#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -1051,14 +1051,6 @@
             <element signature="n#Container#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#Container#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>

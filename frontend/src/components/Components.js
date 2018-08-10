@@ -331,12 +331,15 @@ class PowerStation extends Component{
             timeForm = (
               <div>
                   <form className="timeForm">
-                      <fieldset>
-                      <label htmlFor="morning">10:00 a.m.</label>
-                      <input type="radio" id="morning" name="time" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
-                      <label htmlFor="afternoon">2:00 p.m.</label>
-                      <input type="radio" id="afternoon" name="time" value="2:00 p.m." onChange={(e)=> this.setState({time:e.target.value})}/>
-                      </fieldset>
+                      <div className="row">
+                          <label htmlFor="morning">10:00 a.m.</label>
+                          <input type="radio" id="morning" name="time" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                      </div>
+                      <div row>
+                           <label htmlFor="afternoon">2:00 p.m.</label>
+                           <input type="radio" id="afternoon" name="time" value="2:00 p.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                      </div>
+
                   </form>
               </div>
             );
@@ -365,7 +368,7 @@ class PowerStation extends Component{
                       </div>
                   </div>
 
-              <div  className="btn-group btn-group-toggle">
+              <div  className="row">
                     {this.state.date != '' && timeForm}
               </div>
               <input type="button" value="Select Station and Date" onClick={this.submitStation} className="btn btn-primary"/>
