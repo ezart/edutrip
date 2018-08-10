@@ -340,13 +340,17 @@ class PowerStation extends Component{
               <Trips station={this.state.station} onRender={this.getBookedDates}/>
               <PowerStationsProvider onRender={this.getStations} />
               <div className="row">
-                    <div>
-                  {form}
-              </div>
-                    <div>
-                    <CalendarComponent  className="col-md-4 col-md-offset-4" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
-                    {key}
-                </div>
+                  <div className="row">
+                    {form}
+                  </div>
+                  <div className="row">
+                      <div className="col-md-8">
+                            <CalendarComponent  booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
+                      </div>
+                      <div className="col-md-4">
+                          {key}
+                      </div>
+                  </div>
               </div>
               <div  className="btn-group btn-group-toggle">
                     {this.state.date != '' && timeForm}
