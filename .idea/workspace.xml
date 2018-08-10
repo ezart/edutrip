@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="461">
-              <caret line="349" column="113" lean-forward="false" selection-start-line="349" selection-start-column="113" selection-end-line="349" selection-end-column="113" />
+              <caret line="349" column="159" lean-forward="false" selection-start-line="349" selection-start-column="159" selection-end-line="349" selection-end-column="159" />
               <folding>
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
@@ -61,7 +61,7 @@
                 <element signature="e#8744#8838#0" expanded="false" />
                 <element signature="e#8947#10134#0" expanded="false" />
                 <element signature="e#10179#10762#0" expanded="false" />
-                <element signature="e#11935#12057#0" expanded="false" />
+                <element signature="e#11996#12118#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -535,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1602" height="865" extended-state="1" />
+    <frame x="-7" y="2" width="1602" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22005044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -927,7 +927,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
-          <caret line="349" column="113" lean-forward="false" selection-start-line="349" selection-start-column="113" selection-end-line="349" selection-end-column="113" />
+          <caret line="349" column="159" lean-forward="false" selection-start-line="349" selection-start-column="159" selection-end-line="349" selection-end-column="159" />
           <folding>
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
@@ -942,7 +942,7 @@
             <element signature="e#8744#8838#0" expanded="false" />
             <element signature="e#8947#10134#0" expanded="false" />
             <element signature="e#10179#10762#0" expanded="false" />
-            <element signature="e#11935#12057#0" expanded="false" />
+            <element signature="e#11996#12118#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
