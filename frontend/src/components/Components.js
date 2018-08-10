@@ -161,30 +161,30 @@ class Institution extends Component{
                 <div className="col-md-7">
                     <form>
 
-                    <div className="form-group">
-                        <label htmlFor="name">Institution  </label>
-                        <input  className="form-control" id="name" type="text" name="name" onChange={(e)=>this.setState({name:e.target.value})}/>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="pobox"> P.O. BOX  </label>
-                        <input className="form-control" id="pobox" type="text" name="" onChange={(e)=>this.setState({pobox:e.target.value})} />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="city">City </label>
-                         <input className="form-control" id="city" type="text" name="" onChange={(e)=>this.setState({city:e.target.value})} />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="number"> number of visitors </label>
-                        <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="email">Email </label>
-                        <input className="form-control" id="email" type="email" name="" onChange={(e)=>this.setState({email:e.target.value})} />
-                    </div>
-                    <div className="form-group">
-                        <input className="form-control" type="button" value="Submit" onClick={this.onSubmit} className="btn btn-primary"/>
-                    </div>
-                </form>
+                        <div className="form-group">
+                            <label htmlFor="name">Institution  </label>
+                            <input  className="form-control" id="name" type="text" name="name" onChange={(e)=>this.setState({name:e.target.value})}/>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="pobox"> P.O. BOX  </label>
+                            <input className="form-control" id="pobox" type="text" name="" onChange={(e)=>this.setState({pobox:e.target.value})} />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="city">City </label>
+                             <input className="form-control" id="city" type="text" name="" onChange={(e)=>this.setState({city:e.target.value})} />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="number"> number of visitors </label>
+                            <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="email">Email </label>
+                            <input className="form-control" id="email" type="email" name="" onChange={(e)=>this.setState({email:e.target.value})} />
+                        </div>
+                        <div className="form-group">
+                            <input className ="form-control btn btn-primary" type="button" value="Submit" onClick={this.onSubmit} />
+                        </div>
+                    </form>
                 </div>
             </div>
         );
