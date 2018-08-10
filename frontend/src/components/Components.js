@@ -341,13 +341,15 @@ class PowerStation extends Component{
               <PowerStationsProvider onRender={this.getStations} />
               <div className="row">
                   <div className="row">
-                    {form}
+                      <div className="">
+                        {form}
+                      </div>
                   </div>
                   <div className="row">
-                      <div className="col-md-8">
+                      <div className="col-md-7">
                             <CalendarComponent  booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
                       </div>
-                      <div className="col-md-4">
+                      <div className="col-md-5">
                           {key}
                       </div>
                   </div>
