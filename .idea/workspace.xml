@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="341" column="14" lean-forward="true" selection-start-line="341" selection-start-column="14" selection-end-line="341" selection-end-column="14" />
+            <state relative-caret-position="461">
+              <caret line="349" column="113" lean-forward="false" selection-start-line="349" selection-start-column="113" selection-end-line="349" selection-end-column="113" />
               <folding>
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
@@ -62,7 +61,7 @@
                 <element signature="e#8744#8838#0" expanded="false" />
                 <element signature="e#8947#10134#0" expanded="false" />
                 <element signature="e#10179#10762#0" expanded="false" />
-                <element signature="e#11742#11864#0" expanded="false" />
+                <element signature="e#11935#12057#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -536,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1602" height="865" extended-state="0" />
+    <frame x="-7" y="2" width="1602" height="865" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22005044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -927,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="341" column="14" lean-forward="true" selection-start-line="341" selection-start-column="14" selection-end-line="341" selection-end-column="14" />
+        <state relative-caret-position="461">
+          <caret line="349" column="113" lean-forward="false" selection-start-line="349" selection-start-column="113" selection-end-line="349" selection-end-column="113" />
           <folding>
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
@@ -943,7 +942,7 @@
             <element signature="e#8744#8838#0" expanded="false" />
             <element signature="e#8947#10134#0" expanded="false" />
             <element signature="e#10179#10762#0" expanded="false" />
-            <element signature="e#11742#11864#0" expanded="false" />
+            <element signature="e#11935#12057#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
