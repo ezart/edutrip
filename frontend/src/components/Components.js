@@ -191,17 +191,21 @@ class Institution extends Component{
 }
 
 const key = (
-    <div>
-        <div>
-            <div className="morning_key">
+    <div className>
+        <div className="row">
+            <span className="morning_key col-sm-4">
 
-            </div>
-             Booked in the morning
+            </span>
+            <span className="col-sm-8" >
+                Booked in the morning
+            </span>
         </div>
-        <div>
-            <div className="afternoon_key">
-            </div>
-            Booked in the afternoon
+        <div className="row">
+            <span className="afternoon_key col-sm-4">
+            </span>
+            <span className="col-sm-8">
+                Booked in the afternoon
+            </span>
         </div>
     </div>
 
@@ -265,7 +269,7 @@ class PowerStation extends Component{
         const form = (
             <div className="form-group">
                 <label htmlFor="powerstationselect"> Select Power station </label>
-                <select onChange={this.handleSelect} className="form-control form-control-lg" id="powerstationselect">
+                <select onChange={this.handleSelect} className="form-control form-control-md" id="powerstationselect">
                     {
                           this.state.all_stations.map(
                               station =>
@@ -335,13 +339,15 @@ class PowerStation extends Component{
           <div>
               <Trips station={this.state.station} onRender={this.getBookedDates}/>
               <PowerStationsProvider onRender={this.getStations} />
-              <div>
+              <div className="row">
+                    <div>
                   {form}
               </div>
-              <div>
-                    <CalendarComponent  className="calendar" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
+                    <div>
+                    <CalendarComponent  className="col-md-4 col-md-offset-4" booked_dates={this.state.booked_dates} half_booked={this.state.half_booked} onDateChange ={this.changeDate} station={this.state.station} unavailable_dates={{fro:this.state.station.unavailable_from, to:this.state.station.unavailable_until}} />
                     {key}
                 </div>
+              </div>
               <div  className="btn-group btn-group-toggle">
                     {this.state.date != '' && timeForm}
               </div>

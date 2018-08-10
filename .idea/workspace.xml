@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,24 +46,26 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="346" column="20" lean-forward="false" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+            <state relative-caret-position="391">
+              <caret line="193" column="4" lean-forward="false" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
               <folding>
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
                 <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
                 <element signature="e#4341#4584#0" expanded="false" />
-                <element signature="e#5906#6176#0" expanded="false" />
+                <element signature="e#5906#6368#0" expanded="false" />
+                <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
-                <element signature="e#7701#8255#0" expanded="false" />
-                <element signature="e#8298#8434#0" expanded="false" />
-                <element signature="e#8552#8646#0" expanded="false" />
-                <element signature="e#8755#9942#0" expanded="false" />
-                <element signature="e#9987#10570#0" expanded="false" />
-                <element signature="e#10795#10846#0" expanded="false" />
-                <element signature="e#10861#11219#0" expanded="false" />
+                <element signature="e#7893#8447#0" expanded="false" />
+                <element signature="e#8490#8626#0" expanded="false" />
+                <element signature="e#8744#8838#0" expanded="false" />
+                <element signature="e#8947#10134#0" expanded="false" />
+                <element signature="e#10179#10762#0" expanded="false" />
+                <element signature="e#11029#11080#0" expanded="false" />
+                <element signature="e#11101#11475#0" expanded="false" />
+                <element signature="e#11511#11633#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -77,11 +79,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edutrip/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="130" column="40" lean-forward="true" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+            <state relative-caret-position="115">
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -111,7 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>all</find>
       <find>prop</find>
       <find>handleSelect</find>
       <find>this.pro</find>
@@ -141,6 +152,7 @@
       <find>weekend</find>
       <find>school</find>
       <find>BookT</find>
+      <find>allo</find>
     </findStrings>
     <replaceStrings>
       <replace>\</replace>
@@ -201,8 +213,8 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
         <option value="$PROJECT_DIR$/bookingApp/urls.py" />
-        <option value="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/bookingApp/models.py" />
+        <option value="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
       </list>
     </option>
@@ -352,46 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edutrip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edutrip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edutrip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edutrip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -838,6 +810,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,6 +910,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,13 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="92" lean-forward="false" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
           <folding />
         </state>
       </provider>
@@ -959,14 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edutrip/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="130" column="40" lean-forward="true" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,26 +976,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/edutrip/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="346" column="20" lean-forward="false" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+        <state relative-caret-position="391">
+          <caret line="193" column="4" lean-forward="false" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
           <folding>
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
             <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
             <element signature="e#4341#4584#0" expanded="false" />
-            <element signature="e#5906#6176#0" expanded="false" />
+            <element signature="e#5906#6368#0" expanded="false" />
+            <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
-            <element signature="e#7701#8255#0" expanded="false" />
-            <element signature="e#8298#8434#0" expanded="false" />
-            <element signature="e#8552#8646#0" expanded="false" />
-            <element signature="e#8755#9942#0" expanded="false" />
-            <element signature="e#9987#10570#0" expanded="false" />
-            <element signature="e#10795#10846#0" expanded="false" />
-            <element signature="e#10861#11219#0" expanded="false" />
+            <element signature="e#7893#8447#0" expanded="false" />
+            <element signature="e#8490#8626#0" expanded="false" />
+            <element signature="e#8744#8838#0" expanded="false" />
+            <element signature="e#8947#10134#0" expanded="false" />
+            <element signature="e#10179#10762#0" expanded="false" />
+            <element signature="e#11029#11080#0" expanded="false" />
+            <element signature="e#11101#11475#0" expanded="false" />
+            <element signature="e#11511#11633#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
