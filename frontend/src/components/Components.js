@@ -166,22 +166,22 @@ class Institution extends Component{
                     </div>
                     <div className="form-group">
                         <label htmlFor="pobox"> P.O. BOX  </label>
-                        <input id="pobox" type="text" name="" onChange={(e)=>this.setState({pobox:e.target.value})} />
+                        <input className="form-control" id="pobox" type="text" name="" onChange={(e)=>this.setState({pobox:e.target.value})} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="city">City </label>
-                         <input id="city" type="text" name="" onChange={(e)=>this.setState({city:e.target.value})} />
+                         <input className="form-control" id="city" type="text" name="" onChange={(e)=>this.setState({city:e.target.value})} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="number"> number of visitors </label>
-                        <input id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
+                        <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="email">Email </label>
-                        <input id="email" type="email" name="" onChange={(e)=>this.setState({email:e.target.value})} />
+                        <input className="form-control" id="email" type="email" name="" onChange={(e)=>this.setState({email:e.target.value})} />
                     </div>
                     <div className="form-group">
-                        <input type="button" value="Submit" onClick={this.onSubmit} className="btn btn-primary"/>
+                        <input className="form-control" type="button" value="Submit" onClick={this.onSubmit} className="btn btn-primary"/>
                     </div>
                 </form>
             </div>
@@ -308,20 +308,26 @@ class PowerStation extends Component{
                     if(obj.period == "2:00 p.m."){
                         timeForm =(
                             <form className="timeForm">
-                                <label htmlFor="morning">
-                                    10:00 a.m.
-                                </label>
-                                <input type="checkbox" name="time" id="morning" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                                <div className="form-check">
+                                    <label className="form-check-label">
+                                        <input type="checkbox" name="time" id="morning" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                                        10:00 a.m.
+                                    </label>
+
+                                </div>
                             </form>
                         );
                     }else if(obj.period =="10:00 a.m."){
 
                         timeForm=(
                             <form className="timeForm">
-                                <label htmlFor="afternoon">
-                                    2:00 p.m.
-                                </label>
-                                <input id="afternoon" name="time" type="checkbox" value="2:00 p.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                                <div className="form-check">
+                                    <label className="form-check-label">
+                                        <input id="afternoon" name="time" type="checkbox" value="2:00 p.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                                        2:00 p.m.
+                                    </label>
+
+                                </div>
                             </form>
                         );
                     }
@@ -331,13 +337,15 @@ class PowerStation extends Component{
             timeForm = (
               <div>
                   <form className="timeForm">
-                      <div className="row">
-                          <label htmlFor="morning">10:00 a.m.</label>
-                          <input type="radio" id="morning" name="time" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
-                      </div>
-                      <div row>
-                           <label htmlFor="afternoon">2:00 p.m.</label>
+                      <div className="form-check">
+                          <label className="form-check-label">
+                            <input type="radio" id="morning" name="time" value="10:00 a.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                            10:00 a.m.
+                          </label>
+                           <label className="form-check-label">
                            <input type="radio" id="afternoon" name="time" value="2:00 p.m." onChange={(e)=> this.setState({time:e.target.value})}/>
+                               2:00 p.m.
+                           </label>
                       </div>
 
                   </form>
