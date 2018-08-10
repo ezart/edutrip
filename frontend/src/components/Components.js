@@ -341,7 +341,7 @@ class PowerStation extends Component{
               <PowerStationsProvider onRender={this.getStations} />
               <div className="row">
                   <div className="row">
-                      <div className="col-md-6">
+                      <div className="col-md- 6">
                         {form}
                       </div>
                   </div>
