@@ -175,7 +175,7 @@ class Institution extends Component{
                         </div>
                         <div className="form-group">
                             <label htmlFor="number"> number of visitors </label>
-                            <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
+                            <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})} min="1" max="80"/>
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email </label>

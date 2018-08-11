@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="" />
+    <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +46,8 @@
       <file leaf-file-name="Calendar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="27" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -53,38 +56,35 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="493" column="29" lean-forward="false" selection-start-line="493" selection-start-column="29" selection-end-line="493" selection-end-column="29" />
+            <state relative-caret-position="567">
+              <caret line="177" column="148" lean-forward="false" selection-start-line="177" selection-start-column="148" selection-end-line="177" selection-end-column="148" />
               <folding>
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
-                <element signature="n#Institution#0" expanded="false" />
                 <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
-                <element signature="e#4329#6170#0" expanded="false" />
-                <element signature="e#4376#6147#0" expanded="false" />
                 <element signature="e#4408#4689#0" expanded="false" />
                 <element signature="e#4714#4992#0" expanded="false" />
                 <element signature="e#5017#5287#0" expanded="false" />
-                <element signature="e#5312#5603#0" expanded="false" />
-                <element signature="e#5628#5902#0" expanded="false" />
-                <element signature="e#5927#6119#0" expanded="false" />
-                <element signature="e#6229#6921#0" expanded="false" />
+                <element signature="e#5645#5919#0" expanded="false" />
+                <element signature="e#5944#6136#0" expanded="false" />
+                <element signature="e#6246#6938#0" expanded="false" />
+                <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#constructor#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#render#0;n#PowerStation#0" expanded="false" />
-                <element signature="e#8446#9000#0" expanded="false" />
-                <element signature="e#9043#9179#0" expanded="false" />
-                <element signature="e#9500#10949#0" expanded="false" />
-                <element signature="e#9650#10261#0" expanded="false" />
-                <element signature="e#10994#11827#0" expanded="false" />
-                <element signature="e#11068#11410#0" expanded="false" />
-                <element signature="e#11433#11779#0" expanded="false" />
-                <element signature="e#12057#12212#0" expanded="false" />
-                <element signature="e#12231#13045#0" expanded="false" />
+                <element signature="e#8463#9017#0" expanded="false" />
+                <element signature="e#9060#9196#0" expanded="false" />
+                <element signature="e#9517#10966#0" expanded="false" />
+                <element signature="e#9667#10278#0" expanded="false" />
+                <element signature="e#11011#11844#0" expanded="false" />
+                <element signature="e#11085#11427#0" expanded="false" />
+                <element signature="e#11450#11796#0" expanded="false" />
+                <element signature="e#12074#12229#0" expanded="false" />
+                <element signature="e#12248#13062#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
@@ -110,7 +110,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edutrip/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="476">
               <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
@@ -121,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -269,74 +269,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="edutrip">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="edutrip">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="frontend">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="edutrip">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="frontend">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="edutrip">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="frontend">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="components">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,6 +363,74 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edutrip">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edutrip">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="frontend">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edutrip">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="frontend">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edutrip">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="frontend">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -642,6 +642,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1600" height="865" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22032829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -833,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,15 +961,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-          <folding>
-            <element signature="e#358#374#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edutrip/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="476">
           <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="4" />
           <folding />
         </state>
@@ -983,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="27" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1003,7 +994,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1020,44 +1011,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="2023" column="8" lean-forward="false" selection-start-line="2023" selection-start-column="8" selection-end-line="2023" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="493" column="29" lean-forward="false" selection-start-line="493" selection-start-column="29" selection-end-line="493" selection-end-column="29" />
+        <state relative-caret-position="567">
+          <caret line="177" column="148" lean-forward="false" selection-start-line="177" selection-start-column="148" selection-end-line="177" selection-end-column="148" />
           <folding>
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
-            <element signature="n#Institution#0" expanded="false" />
             <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
-            <element signature="e#4329#6170#0" expanded="false" />
-            <element signature="e#4376#6147#0" expanded="false" />
             <element signature="e#4408#4689#0" expanded="false" />
             <element signature="e#4714#4992#0" expanded="false" />
             <element signature="e#5017#5287#0" expanded="false" />
-            <element signature="e#5312#5603#0" expanded="false" />
-            <element signature="e#5628#5902#0" expanded="false" />
-            <element signature="e#5927#6119#0" expanded="false" />
-            <element signature="e#6229#6921#0" expanded="false" />
+            <element signature="e#5645#5919#0" expanded="false" />
+            <element signature="e#5944#6136#0" expanded="false" />
+            <element signature="e#6246#6938#0" expanded="false" />
+            <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#PowerStation#0" expanded="false" />
-            <element signature="e#8446#9000#0" expanded="false" />
-            <element signature="e#9043#9179#0" expanded="false" />
-            <element signature="e#9500#10949#0" expanded="false" />
-            <element signature="e#9650#10261#0" expanded="false" />
-            <element signature="e#10994#11827#0" expanded="false" />
-            <element signature="e#11068#11410#0" expanded="false" />
-            <element signature="e#11433#11779#0" expanded="false" />
-            <element signature="e#12057#12212#0" expanded="false" />
-            <element signature="e#12231#13045#0" expanded="false" />
+            <element signature="e#8463#9017#0" expanded="false" />
+            <element signature="e#9060#9196#0" expanded="false" />
+            <element signature="e#9517#10966#0" expanded="false" />
+            <element signature="e#9667#10278#0" expanded="false" />
+            <element signature="e#11011#11844#0" expanded="false" />
+            <element signature="e#11085#11427#0" expanded="false" />
+            <element signature="e#11450#11796#0" expanded="false" />
+            <element signature="e#12074#12229#0" expanded="false" />
+            <element signature="e#12248#13062#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
