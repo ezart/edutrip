@@ -13,7 +13,7 @@ export class TermsandConditions extends Component {
             <div className="row">
                 <ul>
                     (PLEASE NOTE: BOOKING IS DONE 3 MONTHS IN ADVANCE)
-                    <li>You are at the same time advised that on agreeing to this visit, the Kenya Electricity
+                    <li>You are advised that on agreeing to this visit, the Kenya Electricity
                         Generating Co. Ltd. accepts no liability for any accident or injury that might occur to any
                         member of the visiting party during the tour,
                         and you are requested therefore to exercise caution while moving within the station

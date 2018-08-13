@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" afterPath="$PROJECT_DIR$/frontend/static/frontend/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/components/TermsandConditions.js" afterPath="$PROJECT_DIR$/frontend/src/components/Messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Messages.js" afterPath="$PROJECT_DIR$/frontend/src/components/Messages.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="658">
-              <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
+              <caret line="483" column="0" lean-forward="false" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
@@ -160,16 +157,15 @@
       <file leaf-file-name="Messages.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            <state relative-caret-position="168">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#TermsandConditions#0" expanded="false" />
-                <element signature="e#386#796#0" expanded="false" />
-                <element signature="e#992#1205#0" expanded="false" />
-                <element signature="e#1331#1633#0" expanded="false" />
-                <element signature="e#1891#2389#0" expanded="false" />
-                <element signature="e#1942#2219#0" expanded="false" />
-                <element signature="e#2240#2366#0" expanded="false" />
+                <element signature="e#975#1188#0" expanded="false" />
+                <element signature="e#1314#1616#0" expanded="false" />
+                <element signature="e#1874#2372#0" expanded="false" />
+                <element signature="e#1925#2202#0" expanded="false" />
+                <element signature="e#2223#2349#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1065,7 +1061,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
-          <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
+          <caret line="483" column="0" lean-forward="false" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
@@ -1109,16 +1105,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="168">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#TermsandConditions#0" expanded="false" />
-            <element signature="e#386#796#0" expanded="false" />
-            <element signature="e#992#1205#0" expanded="false" />
-            <element signature="e#1331#1633#0" expanded="false" />
-            <element signature="e#1891#2389#0" expanded="false" />
-            <element signature="e#1942#2219#0" expanded="false" />
-            <element signature="e#2240#2366#0" expanded="false" />
+            <element signature="e#975#1188#0" expanded="false" />
+            <element signature="e#1314#1616#0" expanded="false" />
+            <element signature="e#1874#2372#0" expanded="false" />
+            <element signature="e#1925#2202#0" expanded="false" />
+            <element signature="e#2223#2349#0" expanded="false" />
           </folding>
         </state>
       </provider>
