@@ -44,6 +44,8 @@ export class TermsandConditions extends Component {
                     <label className="form-check-label">I have read and understood the Terms and conditions
                         above.</label>
                 </div>
+                <br/>
+                <br/>
                 {this.state.is_checked && <div>
                     <input className="btn btn-success" type="button" value="Next" onClick={()=> this.props.onReadTerms()} />
                 </div>}
