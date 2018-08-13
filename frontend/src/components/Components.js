@@ -3,6 +3,7 @@ import Calendar from 'react-calendar';
 import 'babel-polyfill';
 import dateformat from 'dateformat';
 import {CalendarComponent} from "./CalendarComponent";
+import {TermsandConditions} from './TermsandConditions';
 
 
 
@@ -390,7 +391,6 @@ class PowerStation extends Component{
 }
 
 
-
 class BookTrip extends Component{
     constructor(props){
         super(props);
@@ -434,8 +434,7 @@ class BookTrip extends Component{
         const endpoint = host+'api/create_trip/';
         const institution = this.state.institution.id;
         const station = this.state.station.id;
-        fetch( endpoint,
-            {
+        fetch( endpoint,{
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -449,9 +448,7 @@ class BookTrip extends Component{
                         time: this.state.time,
                     }
                 )
-            }
-
-        );
+            });
 
     }
 
@@ -485,25 +482,30 @@ export class Container extends Component{
             date:{},
             time:'',
             institution:{},
-            station_is_selected:false,
-            institution_is_set: false,
+            show_terms_and_conditions:true,
+            show_stations:false,
+            show_institutions: false,
+            show_message: false,
         }
         this.getFromInstitution = this.getFromInstitution.bind(this);
-        this.getFromPowerStation = this.getFromPowerStation.bind(this);
+        this.getFromPowerStation = this.getFromPowerStation.bind(this)
+
+
     }
     getFromPowerStation(args){
         //get Station, date, time
         const station = args.station;
         const date = args.date;
         const time = args.time;
-        this.setState({station:station,date:date,time:time,station_is_selected:true});
+        this.setState({station:station,date:date,time:time,show_stations:false,show_institutions:true});
 
 
     }
     getFromInstitution(institution){
      //get institution
-        this.setState({institution:institution,institution_is_set:true});
+        this.setState({institution:institution,show_institutions:false, show_message:true});
     }
+
     render(){
         const station = this.state.station;
         const date = this.state.date;
@@ -511,11 +513,12 @@ export class Container extends Component{
         const institution = this.state.institution;
         return(
             <div>
-                {this.state.station_is_selected == false && <PowerStation onSubmit={this.getFromPowerStation} /> }
-                {this.state.station_is_selected &&
+                {this.state.show_terms_and_conditions && <TermsandConditions onReadTerms={()=> this.setState({show_terms_and_conditions:false,show_stations:true})} />}
+                {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
+                {this.state.show_institutions &&
                 <Institution onSubmit={this.getFromInstitution}/>
                 }
-                { this.state.station_is_selected && this.state.institution_is_set &&
+                { this.state.show_message &&
                 <BookTrip station={station} date={date} time={time} institution={institution}/>
                 }
 

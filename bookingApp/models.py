@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.mail import send_mail
+from django.contrib import admin
 
 
 class Institution(models.Model):
@@ -110,8 +111,4 @@ class Trip(models.Model):
             super(Trip, self).save(*args, **kwargs)
             #send mail
             self.send_request_message()
-
-
-
-
 
