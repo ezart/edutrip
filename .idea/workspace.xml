@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookingApp/models.py" afterPath="$PROJECT_DIR$/bookingApp/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" afterPath="$PROJECT_DIR$/frontend/static/frontend/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/components/TermsandConditions.js" afterPath="$PROJECT_DIR$/frontend/src/components/Messages.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,8 +58,8 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="507" column="0" lean-forward="true" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
+            <state relative-caret-position="658">
+              <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
@@ -67,38 +67,36 @@
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
                 <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
-                <element signature="e#4465#4746#0" expanded="false" />
-                <element signature="e#4771#5049#0" expanded="false" />
-                <element signature="e#5074#5344#0" expanded="false" />
-                <element signature="e#5702#5976#0" expanded="false" />
-                <element signature="e#6001#6193#0" expanded="false" />
-                <element signature="e#6303#6995#0" expanded="false" />
+                <element signature="e#4476#4757#0" expanded="false" />
+                <element signature="e#4782#5060#0" expanded="false" />
+                <element signature="e#5085#5355#0" expanded="false" />
+                <element signature="e#5713#5987#0" expanded="false" />
+                <element signature="e#6012#6204#0" expanded="false" />
+                <element signature="e#6314#7006#0" expanded="false" />
                 <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#constructor#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
                 <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
-                <element signature="e#8520#9074#0" expanded="false" />
-                <element signature="e#9117#9253#0" expanded="false" />
-                <element signature="e#9371#9465#0" expanded="false" />
-                <element signature="e#9574#11023#0" expanded="false" />
-                <element signature="e#9724#10335#0" expanded="false" />
-                <element signature="e#11068#11901#0" expanded="false" />
-                <element signature="e#11142#11484#0" expanded="false" />
-                <element signature="e#11507#11853#0" expanded="false" />
-                <element signature="e#11955#13377#0" expanded="false" />
-                <element signature="e#12131#12286#0" expanded="false" />
-                <element signature="e#12305#13119#0" expanded="false" />
-                <element signature="n#BookTrip#0" expanded="false" />
+                <element signature="e#8531#9085#0" expanded="false" />
+                <element signature="e#9128#9264#0" expanded="false" />
+                <element signature="e#9382#9476#0" expanded="false" />
+                <element signature="e#9585#11034#0" expanded="false" />
+                <element signature="e#9735#10346#0" expanded="false" />
+                <element signature="e#11079#11912#0" expanded="false" />
+                <element signature="e#11153#11495#0" expanded="false" />
+                <element signature="e#11518#11864#0" expanded="false" />
+                <element signature="e#11966#13388#0" expanded="false" />
+                <element signature="e#12142#12297#0" expanded="false" />
+                <element signature="e#12316#13130#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getDate#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getTime#0;n#BookTrip#0" expanded="false" />
                 <element signature="n#!!block;n#getInstitution#0;n#BookTrip#0" expanded="false" />
-                <element signature="e#14662#15172#0" expanded="false" />
+                <element signature="e#14673#15183#0" expanded="false" />
                 <element signature="n#!!block;n#getFromPowerStation#0;n#Container#0" expanded="false" />
-                <element signature="n#!!block;n#render#0;n#Container#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/bookingApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#391#407#0" expanded="false" />
@@ -123,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/bookingApp/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -159,19 +157,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TermsandConditions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/TermsandConditions.js">
+      <file leaf-file-name="Messages.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+            <state relative-caret-position="386">
+              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#TermsandConditions#0" expanded="false" />
-                <element signature="e#380#790#0" expanded="false" />
-                <element signature="e#986#1199#0" expanded="false" />
-                <element signature="e#1325#1627#0" expanded="false" />
-                <element signature="e#1885#2383#0" expanded="false" />
-                <element signature="e#1936#2213#0" expanded="false" />
-                <element signature="e#2234#2360#0" expanded="false" />
+                <element signature="e#386#796#0" expanded="false" />
+                <element signature="e#992#1205#0" expanded="false" />
+                <element signature="e#1331#1633#0" expanded="false" />
+                <element signature="e#1891#2389#0" expanded="false" />
+                <element signature="e#1942#2219#0" expanded="false" />
+                <element signature="e#2240#2366#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -283,8 +281,9 @@
         <option value="$PROJECT_DIR$/bookingApp/admin.py" />
         <option value="$PROJECT_DIR$/bookingApp/models.py" />
         <option value="$PROJECT_DIR$/bookingApp/templates/bookingApp/book_trip.html" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/TermsandConditions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Messages.js" />
       </list>
     </option>
   </component>
@@ -997,7 +996,7 @@
     <entry file="file://$PROJECT_DIR$/bookingApp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1029,7 +1028,7 @@
     <entry file="file://$PROJECT_DIR$/bookingApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#391#407#0" expanded="false" />
@@ -1047,14 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -1063,10 +1054,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="507" column="0" lean-forward="true" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
+        <state relative-caret-position="658">
+          <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
@@ -1074,54 +1073,52 @@
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
             <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
-            <element signature="e#4465#4746#0" expanded="false" />
-            <element signature="e#4771#5049#0" expanded="false" />
-            <element signature="e#5074#5344#0" expanded="false" />
-            <element signature="e#5702#5976#0" expanded="false" />
-            <element signature="e#6001#6193#0" expanded="false" />
-            <element signature="e#6303#6995#0" expanded="false" />
+            <element signature="e#4476#4757#0" expanded="false" />
+            <element signature="e#4782#5060#0" expanded="false" />
+            <element signature="e#5085#5355#0" expanded="false" />
+            <element signature="e#5713#5987#0" expanded="false" />
+            <element signature="e#6012#6204#0" expanded="false" />
+            <element signature="e#6314#7006#0" expanded="false" />
             <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getStations#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#handleSelect#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#getBookedDates#0;n#PowerStation#0" expanded="false" />
             <element signature="n#!!block;n#submitStation#0;n#PowerStation#0" expanded="false" />
-            <element signature="e#8520#9074#0" expanded="false" />
-            <element signature="e#9117#9253#0" expanded="false" />
-            <element signature="e#9371#9465#0" expanded="false" />
-            <element signature="e#9574#11023#0" expanded="false" />
-            <element signature="e#9724#10335#0" expanded="false" />
-            <element signature="e#11068#11901#0" expanded="false" />
-            <element signature="e#11142#11484#0" expanded="false" />
-            <element signature="e#11507#11853#0" expanded="false" />
-            <element signature="e#11955#13377#0" expanded="false" />
-            <element signature="e#12131#12286#0" expanded="false" />
-            <element signature="e#12305#13119#0" expanded="false" />
-            <element signature="n#BookTrip#0" expanded="false" />
+            <element signature="e#8531#9085#0" expanded="false" />
+            <element signature="e#9128#9264#0" expanded="false" />
+            <element signature="e#9382#9476#0" expanded="false" />
+            <element signature="e#9585#11034#0" expanded="false" />
+            <element signature="e#9735#10346#0" expanded="false" />
+            <element signature="e#11079#11912#0" expanded="false" />
+            <element signature="e#11153#11495#0" expanded="false" />
+            <element signature="e#11518#11864#0" expanded="false" />
+            <element signature="e#11966#13388#0" expanded="false" />
+            <element signature="e#12142#12297#0" expanded="false" />
+            <element signature="e#12316#13130#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getStation#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getDate#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getTime#0;n#BookTrip#0" expanded="false" />
             <element signature="n#!!block;n#getInstitution#0;n#BookTrip#0" expanded="false" />
-            <element signature="e#14662#15172#0" expanded="false" />
+            <element signature="e#14673#15183#0" expanded="false" />
             <element signature="n#!!block;n#getFromPowerStation#0;n#Container#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#Container#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/TermsandConditions.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        <state relative-caret-position="386">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#TermsandConditions#0" expanded="false" />
-            <element signature="e#380#790#0" expanded="false" />
-            <element signature="e#986#1199#0" expanded="false" />
-            <element signature="e#1325#1627#0" expanded="false" />
-            <element signature="e#1885#2383#0" expanded="false" />
-            <element signature="e#1936#2213#0" expanded="false" />
-            <element signature="e#2234#2360#0" expanded="false" />
+            <element signature="e#386#796#0" expanded="false" />
+            <element signature="e#992#1205#0" expanded="false" />
+            <element signature="e#1331#1633#0" expanded="false" />
+            <element signature="e#1891#2389#0" expanded="false" />
+            <element signature="e#1942#2219#0" expanded="false" />
+            <element signature="e#2240#2366#0" expanded="false" />
           </folding>
         </state>
       </provider>

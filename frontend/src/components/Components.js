@@ -3,7 +3,7 @@ import Calendar from 'react-calendar';
 import 'babel-polyfill';
 import dateformat from 'dateformat';
 import {CalendarComponent} from "./CalendarComponent";
-import {TermsandConditions} from './TermsandConditions';
+import {TermsandConditions, ConfirmationMessage} from './Messages';
 
 
 
@@ -450,22 +450,32 @@ class BookTrip extends Component{
                 )
             });
 
+        this.setState({show_confirmation_message:true})
+
     }
 
 
     render(){
+        const station =this.state.station.name;
+        const date = this.state.date;
+        const time = this.state.time;
+        const email = this.state.institution.email;
         const statement = (
-            <div>
-                <h3>Book  {this.state.station.name } on  {this.state.date} at  {this.state.time} </h3>
+            <div className="row">
+                <h3>Book  {station} on  {date} at  {time} </h3>
                 <h3>School: {this.state.institution.name}  </h3>
-                <h3>Email: {this.state.institution.email}</h3>
+                <h3>Email: {email}</h3>
             </div>
         );
         return(
             <div>
                 <h2>{statement}</h2>
                 <input type="button" value="Book Trip" onClick={this.sendBookingRequest} />
+                <div className="row">
+                    {this.state.show_confirmation_message && <ConfirmationMessage station={station} date={date} time={time} email={email}/>}
+                </div>
             </div>
+
         );
     }
 }
@@ -486,6 +496,7 @@ export class Container extends Component{
             show_stations:false,
             show_institutions: false,
             show_message: false,
+            show_confirmation_message: false
         }
         this.getFromInstitution = this.getFromInstitution.bind(this);
         this.getFromPowerStation = this.getFromPowerStation.bind(this)

@@ -1,7 +1,7 @@
-import React from 'react';
+import React,{Component} from 'react';
 
 
-export class TermsandConditions extends React.Component {
+export class TermsandConditions extends Component {
     constructor(props){
         super(props);
         this.state ={
@@ -52,6 +52,21 @@ export class TermsandConditions extends React.Component {
     }
 }
 
+
+export class ConfirmationMessage extends Component{
+    render (){
+            return(
+
+                <div className="alert-success">
+                        <p>
+                        Your request to book {this.props.station} on {this.props.date} at {this.props.time} has been sent. You will receive an email on {this.props.email}
+                        once your request has been reviewed. Bye.<br/>
+                        <a href="https://kengen.co.ke"><input type="button" value="Back" /></a>
+                        </p>
+                </div>
+        )
+    }
+}
 
 
 
