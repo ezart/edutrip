@@ -33,10 +33,10 @@ const Nav = props =>{
            <nav className="navbar">
                <a className="navbar-brand">Education trips</a>
                <ul className="navbar-nav">
-                   <li className="nav-item"><a href="/">Home</a></li>
-                   <li className="nav-item"><a href="#">Application Status</a></li>
-                   <li className="nav-item"><a href="#">Help</a></li>
-                   <li className="nav-item"><a href="#">the Company</a></li>
+                   <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
+                   <li className="nav-item"><a className="nav-link" href="#">Application Status</a></li>
+                   <li className="nav-item"><a className="nav-link" href="#">Help</a></li>
+                   <li className="nav-item"><a className="nav-link" href="#">the Company</a></li>
                </ul>
            </nav>
       </div>
