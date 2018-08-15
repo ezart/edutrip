@@ -421,7 +421,8 @@ class BookTrip extends Component{
             station:'',
             date: '',
             time:'',
-            institution:''
+            institution:'',
+            show_confirmation_message:false,
         }
         //bind functions
         this.getStation = this.getStation.bind(this);
@@ -476,21 +477,29 @@ class BookTrip extends Component{
 
         );
 
+        this.setState({show_confirmation_message:true});
     }
 
 
     render(){
+        const station = this.state.station.name;
+        const date = this.state.date;
+        const time = this.state.time;
+        const email = this.state.institution.email;
         const statement = (
             <div>
-                <h3>Book  {this.state.station.name } on  {this.state.date} at  {this.state.time} </h3>
+                <h3>Book  {station} on  {date} at  {time} </h3>
                 <h3>School: {this.state.institution.name}  </h3>
-                <h3>Email: {this.state.institution.email}</h3>
+                <h3>Email: {email}</h3>
             </div>
         );
         return(
             <div>
                 <h2>{statement}</h2>
                 <input type="button" value="Book Trip" onClick={this.sendBookingRequest} />
+                <div>
+                    {this.state.show_confirmation_message && <ConfirmationMessage station={station} date={date} time={time} email={email}/>}
+                </div>
             </div>
         );
     }
@@ -527,7 +536,7 @@ export class Container extends Component{
     }
     getFromInstitution(institution){
      //get institution
-        this.setState({institution:institution,show_institution:false,});
+        this.setState({institution:institution,show_institution:false,show_confirmation:true});
     }
     render(){
         const station = this.state.station;
@@ -539,9 +548,7 @@ export class Container extends Component{
                 <Nav />
                 {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
                 {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
-                {this.state.show_institution &&
-                <Institution onSubmit={this.getFromInstitution}/>
-                }
+                {this.state.show_institution && <Institution onSubmit={this.getFromInstitution}/>}
                 { this.state.show_confirmation &&
                 <BookTrip station={station} date={date} time={time} institution={institution}/>
                 }
