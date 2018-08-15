@@ -3,7 +3,8 @@ import Calendar from 'react-calendar';
 import 'babel-polyfill';
 import dateformat from 'dateformat';
 import {CalendarComponent} from "./CalendarComponent";
-import {TermsandConditions, ConfirmationMessage} from './Messages';
+import {TermsandConditions,ConfirmationMessage} from "./Messages";
+
 
 
 
@@ -25,6 +26,26 @@ function getCookie(name) {
 }
 var csrftoken = getCookie('csrftoken');
 const host ="http://edutrip.herokuapp.com/";
+
+const Nav = props =>{
+    return (
+      <div>
+          <nav className="navbar navbar-expand-lg bg-light">
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div >
+                  <ul className="navbar-nav">
+                      <li className="nav-item"><a className="nav-link" href="/">Home</a> </li>
+                      <li className="nav-item"><a className="nav-link" href="#">Application Status</a> </li>
+                      <li className="nav-item"><a className="nav-link" href="#">Help</a> </li>
+                      <li className="nav-item"><a className="nav-link" href="https://www.kengen.co.ke">KenGen</a> </li>
+                  </ul>
+              </div>
+          </nav>
+      </div>
+    );
+}
 
 class PowerStationsProvider extends Component{
     //onRendering get All Stations
@@ -63,6 +84,7 @@ class Trips extends Component{
            const booked_dates = [];
            const fully_booked_dates=[];
            const half_booked_dates = [];
+           console.log()
            for (var s of stations) {
                booked_dates.push(s.date);
            }
@@ -176,7 +198,7 @@ class Institution extends Component{
                         </div>
                         <div className="form-group">
                             <label htmlFor="number"> number of visitors </label>
-                            <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})} min="1" max="80"/>
+                            <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email </label>
@@ -391,6 +413,7 @@ class PowerStation extends Component{
 }
 
 
+
 class BookTrip extends Component{
     constructor(props){
         super(props);
@@ -434,7 +457,8 @@ class BookTrip extends Component{
         const endpoint = host+'api/create_trip/';
         const institution = this.state.institution.id;
         const station = this.state.station.id;
-        fetch( endpoint,{
+        fetch( endpoint,
+            {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -448,34 +472,26 @@ class BookTrip extends Component{
                         time: this.state.time,
                     }
                 )
-            });
+            }
 
-        this.setState({show_confirmation_message:true})
+        );
 
     }
 
 
     render(){
-        const station =this.state.station.name;
-        const date = this.state.date;
-        const time = this.state.time;
-        const email = this.state.institution.email;
         const statement = (
-            <div className="row">
-                <h3>Book  {station} on  {date} at  {time} </h3>
+            <div>
+                <h3>Book  {this.state.station.name } on  {this.state.date} at  {this.state.time} </h3>
                 <h3>School: {this.state.institution.name}  </h3>
-                <h3>Email: {email}</h3>
+                <h3>Email: {this.state.institution.email}</h3>
             </div>
         );
         return(
             <div>
                 <h2>{statement}</h2>
                 <input type="button" value="Book Trip" onClick={this.sendBookingRequest} />
-                <div className="row">
-                    {this.state.show_confirmation_message && <ConfirmationMessage station={station} date={date} time={time} email={email}/>}
-                </div>
             </div>
-
         );
     }
 }
@@ -492,31 +508,27 @@ export class Container extends Component{
             date:{},
             time:'',
             institution:{},
-            show_terms_and_conditions:true,
+            show_terms:true,
             show_stations:false,
-            show_institutions: false,
-            show_message: false,
-            show_confirmation_message: false
+            show_institution: false,
+            show_confirmation:false,
         }
         this.getFromInstitution = this.getFromInstitution.bind(this);
-        this.getFromPowerStation = this.getFromPowerStation.bind(this)
-
-
+        this.getFromPowerStation = this.getFromPowerStation.bind(this);
     }
     getFromPowerStation(args){
         //get Station, date, time
         const station = args.station;
         const date = args.date;
         const time = args.time;
-        this.setState({station:station,date:date,time:time,show_stations:false,show_institutions:true});
+        this.setState({station:station,date:date,time:time,show_stations:false,show_institution:true});
 
 
     }
     getFromInstitution(institution){
      //get institution
-        this.setState({institution:institution,show_institutions:false, show_message:true});
+        this.setState({institution:institution,show_institution:false,});
     }
-
     render(){
         const station = this.state.station;
         const date = this.state.date;
@@ -524,12 +536,13 @@ export class Container extends Component{
         const institution = this.state.institution;
         return(
             <div>
-                {this.state.show_terms_and_conditions && <TermsandConditions onReadTerms={()=> this.setState({show_terms_and_conditions:false,show_stations:true})} />}
+                <Nav />
+                {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
                 {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
-                {this.state.show_institutions &&
+                {this.state.show_institution &&
                 <Institution onSubmit={this.getFromInstitution}/>
                 }
-                { this.state.show_message &&
+                { this.state.show_confirmation &&
                 <BookTrip station={station} date={date} time={time} institution={institution}/>
                 }
 

@@ -1,26 +1,28 @@
 from django.db import models
 from django.core.mail import send_mail
 from django.contrib import admin
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 class Institution(models.Model):
     name = models.CharField(max_length=50, blank=False)
     po_box = models.CharField(max_length=20)
     city = models.CharField(max_length=20)
-    number_of_visitors = models.IntegerField()
+    number_of_visitors = models.IntegerField(validators=[MaxValueValidator(80), MinValueValidator(1)])
     email = models.EmailField()
 
     def __str__(self):
         return self.name
 
+
 class PowerStation(models.Model):
     station_choices = (
-            ("Masinga", "Masinga"),
-            ("Kamburu", "Kamburu"),
-            ("Gitaru", "Gitaru"),
-            ("Kindaruma", "Kindaruma"),
-            ("Kiambere", "Kiambere")
-        )
+        ("Masinga", "Masinga"),
+        ("Kamburu", "Kamburu"),
+        ("Gitaru", "Gitaru"),
+        ("Kindaruma", "Kindaruma"),
+        ("Kiambere", "Kiambere")
+    )
     name = models.CharField(max_length=20, choices=station_choices)
     available = models.BooleanField(default=True)
     unavailable_from = models.DateField(blank=True, null=True)
@@ -45,8 +47,6 @@ class PowerStation(models.Model):
             return False
 
         return True
-
-
 
 
 class Trip(models.Model):
@@ -85,10 +85,11 @@ class Trip(models.Model):
 
     # approve the trip request be done by admin
     def send_request_message(self):
-        subject ="Request to book powerstation for an educational tour."
-        message = "Your request to visit {} on {} at {} has been received. We will notify, you once your request has been reviewed.".format(self.station.name,self.date,self.time)
+        subject = "Request to book powerstation for an educational tour."
+        message = "Your request to visit {} on {} at {} has been received. We will notify, you once your request has been reviewed.".format(
+            self.station.name, self.date, self.time)
         email_from = "ecom193@gmail.com"
-        email_to = [email_from,self.institution.email]
+        email_to = [email_from, self.institution.email]
         send_mail(subject,
                   message,
                   email_from,
@@ -109,6 +110,5 @@ class Trip(models.Model):
             raise PermissionError("Station is booked in the afternnon")
         else:
             super(Trip, self).save(*args, **kwargs)
-            #send mail
+            # send mail
             self.send_request_message()
-
