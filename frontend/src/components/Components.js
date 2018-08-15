@@ -30,20 +30,15 @@ const host ="http://edutrip.herokuapp.com/";
 const Nav = props =>{
     return (
       <div>
-          <nav className="navbar navbar-expand-lg bg-light">
-              <a class="navbar-brand" href="#">Education trips</a>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarSupportedContent" >
-                  <ul className="navbar-nav">
-                      <li className="nav-item"><a className="nav-link" href="/">Home</a> </li>
-                      <li className="nav-item"><a className="nav-link" href="#">Application Status</a> </li>
-                      <li className="nav-item"><a className="nav-link" href="#">Help</a> </li>
-                      <li className="nav-item"><a className="nav-link" href="https://www.kengen.co.ke">KenGen</a> </li>
-                  </ul>
-              </div>
-          </nav>
+           <nav className="navbar">
+               <a className="navbar-brand">Education trips</a>
+               <ul className="nav navbar-nav">
+                   <li className="nav-item"><a href="/">Home</a></li>
+                   <li className="nav-item"><a href="#">Application Status</a></li>
+                   <li className="nav-item"><a href="#">Help</a></li>
+                   <li className="nav-item"><a href="#">the Company</a></li>
+               </ul>
+           </nav>
       </div>
     );
 }
