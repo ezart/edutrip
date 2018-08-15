@@ -32,7 +32,7 @@ const Nav = props =>{
       <div>
            <nav className="navbar">
                <a className="navbar-brand">Education trips</a>
-               <ul className="nav navbar-nav">
+               <ul className="navbar-nav">
                    <li className="nav-item"><a href="/">Home</a></li>
                    <li className="nav-item"><a href="#">Application Status</a></li>
                    <li className="nav-item"><a href="#">Help</a></li>
