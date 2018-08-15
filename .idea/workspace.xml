@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/frontend/css/main.css" afterPath="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="562">
-              <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+              <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -57,21 +55,21 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+            <state relative-caret-position="365">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
-                <element signature="e#7408#8100#0" expanded="false" />
+                <element signature="e#7436#8128#0" expanded="false" />
                 <element signature="n#PowerStation#0" expanded="false" />
-                <element signature="e#15827#16337#0" expanded="false" />
+                <element signature="e#15855#16365#0" expanded="false" />
                 <element signature="n#Container#0" expanded="false" />
                 <element signature="n#!!block;n#getFromPowerStation#0;n#Container#0" expanded="false" />
                 <element signature="n#!!block;n#render#0;n#Container#0" expanded="false" />
-                <marker date="1534343718896" expanded="true" signature="18810:18944" ph="&lt;div/&gt;" />
+                <marker date="1534344066615" expanded="true" signature="18838:18972" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -242,10 +240,10 @@
         <option value="$PROJECT_DIR$/frontend/src/components/TermsandConditions.js" />
         <option value="$PROJECT_DIR$/bookingApp/models.py" />
         <option value="$PROJECT_DIR$/frontend/src/components/Messages.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
         <option value="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css" />
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
       </list>
     </option>
   </component>
@@ -1020,7 +1018,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
-          <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1035,21 +1033,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        <state relative-caret-position="365">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
-            <element signature="e#7408#8100#0" expanded="false" />
+            <element signature="e#7436#8128#0" expanded="false" />
             <element signature="n#PowerStation#0" expanded="false" />
-            <element signature="e#15827#16337#0" expanded="false" />
+            <element signature="e#15855#16365#0" expanded="false" />
             <element signature="n#Container#0" expanded="false" />
             <element signature="n#!!block;n#getFromPowerStation#0;n#Container#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#Container#0" expanded="false" />
-            <marker date="1534343718896" expanded="true" signature="18810:18944" ph="&lt;div/&gt;" />
+            <marker date="1534344066615" expanded="true" signature="18838:18972" ph="&lt;div/&gt;" />
           </folding>
         </state>
       </provider>
