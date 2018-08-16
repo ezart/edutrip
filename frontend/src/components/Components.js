@@ -214,25 +214,25 @@ class Institution extends Component{
 const key = (
     <div className>
         <div className="row">
-            <span className="morning_key col-sm-2">
+            <span className="morning_key col-xs-2">
 
             </span>
-            <span className="col-sm-10" >
+            <span className="col-xs-10" >
                 Booked in the morning
             </span>
         </div>
         <div className="row">
-            <span className="afternoon_key col-sm-2">
+            <span className="afternoon_key col-xs-2">
             </span>
-            <span className="col-sm-10">
+            <span className="col-xs-10">
                 Booked in the afternoon
             </span>
         </div>
         <div className="row">
-            <span className="not_available col-sm-2">
+            <span className="not_available col-xs-2">
 
             </span>
-            <span className="col-sm-10">
+            <span className="col-xs-10">
                 Date not available for booking
             </span>
         </div>

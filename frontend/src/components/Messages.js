@@ -50,7 +50,7 @@ export class TermsandConditions extends Component {
                 <div className="col-md-12">
                     <div className="col-md-4 offset-2">
                         {this.state.is_checked &&
-                        <input className="btn btn-success col-md-8 " type="button" value="Next"
+                        <input className="btn btn-success btn-block" type="button" value="Next"
                                onClick={() => this.props.onReadTerms()}/>
                         }
                     </div>
