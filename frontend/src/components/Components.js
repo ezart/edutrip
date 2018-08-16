@@ -29,8 +29,8 @@ const host ="http://edutrip.herokuapp.com/";
 
 const Nav = props =>{
     return (
-      <div>
-           <nav className="navbar navbar-expand-lg">
+      <div className="container">
+           <nav className="navbar navbar-expand-lg fixed-top">
                <a className="navbar-brand">Education trips</a>
                <ul className="navbar-nav">
                    <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
