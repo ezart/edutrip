@@ -30,11 +30,13 @@ const host ="http://edutrip.herokuapp.com/";
 const Nav = props =>{
     return (
       <div className="row">
-          <nav className="navbar  navbar-dark fixed-top ">
+          <nav className="navbar  navbar-default fixed-top ">
               <div className="container">
                    <a className="navbar-brand">Education trips</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
 
                    <div id="navbarNav" className="collapse navbar-collapse">
