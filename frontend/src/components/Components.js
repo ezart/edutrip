@@ -32,12 +32,18 @@ const Nav = props =>{
       <div className="container">
            <nav className="navbar navbar-expand-lg fixed-top">
                <a className="navbar-brand">Education trips</a>
-               <ul className="navbar-nav">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+               <div id="navbarNav" className="collapse navbar-collapse">
+                    <ul className="navbar-nav">
                    <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
                    <li className="nav-item"><a className="nav-link" href="#">Application Status</a></li>
                    <li className="nav-item"><a className="nav-link" href="#">Help</a></li>
                    <li className="nav-item"><a className="nav-link" href="#">the Company</a></li>
                </ul>
+               </div>
            </nav>
       </div>
     );
