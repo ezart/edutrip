@@ -212,7 +212,7 @@ class Institution extends Component{
 }
 
 const key = (
-    <div className="row">
+    <div>
         <div className="row">
             <span className="morning_key col-xs-2">
 
