@@ -29,16 +29,15 @@ const host ="http://edutrip.herokuapp.com/";
 
 const Nav = props =>{
     return (
-      <div className="container">
-           <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-               <a className="navbar-brand">Education trips</a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+      <div className="row">
+          <nav className="navbar navbar-expand-lg navbar-inverse fixed-top ">
+              <div className="container">
+                   <a className="navbar-brand">Education trips</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-               <div id="navbarNav" className="collapse navbar-collapse">
+                   <div id="navbarNav" className="collapse navbar-collapse">
                     <ul className="navbar-nav">
                    <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
                    <li className="nav-item"><a className="nav-link" href="#">Application Status</a></li>
@@ -46,7 +45,8 @@ const Nav = props =>{
                    <li className="nav-item"><a className="nav-link" href="#">the Company</a></li>
                </ul>
                </div>
-           </nav>
+              </div>
+          </nav>
       </div>
     );
 }
