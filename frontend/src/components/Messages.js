@@ -37,18 +37,18 @@ export class TermsandConditions extends Component {
                 </div>
                 <div className="col-md-12">
                     <div className="checkbox-row">
-                    <input name="terms_accept" type="checkbox" className="checkbox-inline"
+                    <input name="terms_accept" type="checkbox" className="col-xs-2 checkbox-inline"
                            onChange={() => this.setState((prevState)=>{
                                return {is_checked:!prevState.is_checked}
                            })}
 
                            />
-                    <label className="form-check-label"> <span className="font-weight-bold text-dark">I have read and understood the Terms and conditions
+                    <label className=" col-xs-10 form-check-label"> <span className="font-weight-bold text-dark">I have read and understood the Terms and conditions
                         above.</span></label>
                 </div>
                 </div>
                 <div className="col-md-12">
-                    <div className="col-md-4 offset-2">
+                    <div className="col-xs-12 col-md-4 offset-2">
                         {this.state.is_checked &&
                         <input className="btn btn-success btn-block" type="button" value="Next"
                                onClick={() => this.props.onReadTerms()}/>
