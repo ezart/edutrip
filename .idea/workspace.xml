@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" afterPath="$PROJECT_DIR$/frontend/static/frontend/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messages.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Messages.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -107,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -133,27 +131,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Components.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
-                <element signature="e#1569#2002#0" expanded="false" />
+                <element signature="e#1550#1983#0" expanded="false" />
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
-                <element signature="e#7708#7919#0" expanded="false" />
-                <element signature="e#7928#8147#0" expanded="false" />
+                <element signature="e#7689#7900#0" expanded="false" />
+                <element signature="e#7909#8128#0" expanded="false" />
                 <element signature="n#PowerStation#0" expanded="false" />
-                <element signature="e#10737#12186#0" expanded="false" />
-                <element signature="e#12231#13064#0" expanded="false" />
-                <element signature="e#13294#13449#0" expanded="false" />
+                <element signature="e#10718#12167#0" expanded="false" />
+                <element signature="e#12212#13045#0" expanded="false" />
+                <element signature="e#13275#13430#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#Container#0" expanded="false" />
-                <marker date="1534432943923" expanded="true" signature="18868:19002" ph="&lt;div/&gt;" />
+                <marker date="1534433129318" expanded="true" signature="18849:18983" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -975,14 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -991,15 +981,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
+    <entry file="file://$PROJECT_DIR$/frontend/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding>
-            <element signature="e#290#2091#0" expanded="false" />
-            <element signature="e#2767#3156#0" expanded="false" />
-            <element signature="n#ConfirmationMessage#0" expanded="false" />
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#getCookie#0" expanded="false" />
+            <element signature="e#1550#1983#0" expanded="false" />
+            <element signature="n#PowerStationsProvider#0" expanded="false" />
+            <element signature="n#Trips#0" expanded="false" />
+            <element signature="n#Institution#0" expanded="false" />
+            <element signature="e#7689#7900#0" expanded="false" />
+            <element signature="e#7909#8128#0" expanded="false" />
+            <element signature="n#PowerStation#0" expanded="false" />
+            <element signature="e#10718#12167#0" expanded="false" />
+            <element signature="e#12212#13045#0" expanded="false" />
+            <element signature="e#13275#13430#0" expanded="false" />
+            <element signature="n#BookTrip#0" expanded="false" />
+            <element signature="n#Container#0" expanded="false" />
+            <marker date="1534433129318" expanded="true" signature="18849:18983" ph="&lt;div/&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookingApp/templates/bookingApp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,50 +1050,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookingApp/templates/bookingApp/index.html">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        <state relative-caret-position="374">
+          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="n#!!block;n#getCookie#0" expanded="false" />
-            <element signature="e#1569#2002#0" expanded="false" />
-            <element signature="n#PowerStationsProvider#0" expanded="false" />
-            <element signature="n#Trips#0" expanded="false" />
-            <element signature="n#Institution#0" expanded="false" />
-            <element signature="e#7708#7919#0" expanded="false" />
-            <element signature="e#7928#8147#0" expanded="false" />
-            <element signature="n#PowerStation#0" expanded="false" />
-            <element signature="e#10737#12186#0" expanded="false" />
-            <element signature="e#12231#13064#0" expanded="false" />
-            <element signature="e#13294#13449#0" expanded="false" />
-            <element signature="n#BookTrip#0" expanded="false" />
-            <element signature="n#Container#0" expanded="false" />
-            <marker date="1534432943923" expanded="true" signature="18868:19002" ph="&lt;div/&gt;" />
+            <element signature="e#290#2091#0" expanded="false" />
+            <element signature="e#2767#3156#0" expanded="false" />
+            <element signature="n#ConfirmationMessage#0" expanded="false" />
           </folding>
         </state>
       </provider>
