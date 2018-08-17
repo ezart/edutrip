@@ -559,10 +559,10 @@ export class Container extends Component{
         const institution = this.state.institution;
         return(
             <div>
-                <div>
+                <div id="nav">
                         <Nav />
                 </div>
-                <div className="container">
+                <div className="container" id="maincontent">
                         {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
                         {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
                         {this.state.show_institution && <Institution onSubmit={this.getFromInstitution}/>}

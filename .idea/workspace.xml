@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="" />
+    <list default="true" id="b3c96c5e-b819-47c2-ab06-a25e1e5b9b0a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Components.js" afterPath="$PROJECT_DIR$/frontend/src/components/Components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/frontend/css/main.css" afterPath="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,8 +125,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -131,18 +135,19 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="469">
+              <caret line="564" column="60" lean-forward="true" selection-start-line="564" selection-start-column="60" selection-end-line="564" selection-end-column="60" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
+                <element signature="e#973#2389#0" expanded="false" />
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
                 <element signature="e#7790#8472#0" expanded="false" />
                 <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
-                <marker date="1534513013204" expanded="true" signature="19311:19483" ph="&lt;div/&gt;" />
+                <marker date="1534526336153" expanded="true" signature="19337:19509" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -253,10 +258,10 @@
         <option value="$PROJECT_DIR$/frontend/src/components/TermsandConditions.js" />
         <option value="$PROJECT_DIR$/bookingApp/models.py" />
         <option value="$PROJECT_DIR$/frontend/static/frontend/css/Calendar.css" />
-        <option value="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
         <option value="$PROJECT_DIR$/frontend/src/components/Messages.js" />
         <option value="$PROJECT_DIR$/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/frontend/src/components/Components.js" />
+        <option value="$PROJECT_DIR$/frontend/static/frontend/css/main.css" />
       </list>
     </option>
   </component>
@@ -953,22 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/frontend/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1028,20 +1017,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/frontend/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="469">
+          <caret line="564" column="60" lean-forward="true" selection-start-line="564" selection-start-column="60" selection-end-line="564" selection-end-column="60" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
+            <element signature="e#973#2389#0" expanded="false" />
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
             <element signature="e#7790#8472#0" expanded="false" />
             <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
-            <marker date="1534513013204" expanded="true" signature="19311:19483" ph="&lt;div/&gt;" />
+            <marker date="1534526336153" expanded="true" signature="19337:19509" ph="&lt;div/&gt;" />
           </folding>
         </state>
       </provider>
