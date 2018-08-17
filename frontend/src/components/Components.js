@@ -557,15 +557,18 @@ export class Container extends Component{
         const time = this.state.time;
         const institution = this.state.institution;
         return(
-            <div className="container">
-                <Nav />
-                {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
-                {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
-                {this.state.show_institution && <Institution onSubmit={this.getFromInstitution}/>}
-                { this.state.show_confirmation &&
-                <BookTrip station={station} date={date} time={time} institution={institution}/>
-                }
-
+            <div>
+                <div className="container-fluid">
+                        <Nav />
+                </div>
+                <div className="container">
+                        {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
+                        {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
+                        {this.state.show_institution && <Institution onSubmit={this.getFromInstitution}/>}
+                        { this.state.show_confirmation &&
+                        <BookTrip station={station} date={date} time={time} institution={institution}/>
+                        }
+                </div>
             </div>
         );
     }
