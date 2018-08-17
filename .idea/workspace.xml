@@ -133,12 +133,12 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="186">
+              <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
-                <marker date="1534509628681" expanded="true" signature="19757:19891" ph="&lt;div/&gt;" />
+                <marker date="1534510477686" expanded="true" signature="19092:19226" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -1026,12 +1026,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="186">
+          <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
-            <marker date="1534509628681" expanded="true" signature="19757:19891" ph="&lt;div/&gt;" />
+            <marker date="1534510477686" expanded="true" signature="19092:19226" ph="&lt;div/&gt;" />
           </folding>
         </state>
       </provider>

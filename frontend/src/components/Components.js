@@ -38,22 +38,6 @@ const Nav = props =>{
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav animate side-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/">Home
-                      <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Application status</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">KenGen</a>
-                  </li>
-                </ul>
                 <ul class="navbar-nav ml-md-auto d-md-flex">
                   <li class="nav-item">
                     <a class="nav-link" href="#">Home
