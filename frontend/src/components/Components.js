@@ -558,7 +558,7 @@ export class Container extends Component{
         const institution = this.state.institution;
         return(
             <div>
-                <div className="container-fluid">
+                <div className="container">
                         <Nav />
                 </div>
                 <div className="container">
