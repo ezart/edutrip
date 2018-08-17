@@ -31,7 +31,6 @@ const Nav = props =>{
     return (
       <div>
           <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
-              <span class="navbar-toggler-icon leftmenutrigger"></span>
               <a class="navbar-brand" href="/">EDUCATION TRIPS</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +39,7 @@ const Nav = props =>{
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-md-auto d-md-flex">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home
+                    <a class="nav-link" href="/">Home
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
@@ -51,7 +50,7 @@ const Nav = props =>{
                     <a class="nav-link" href="#">Help</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">KenGen</a>
+                    <a class="nav-link" href="https://www.kengen.co.ke">KenGen</a>
                   </li>
                 </ul>
               </div>
