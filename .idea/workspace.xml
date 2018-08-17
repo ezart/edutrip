@@ -133,18 +133,19 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="560" column="41" lean-forward="false" selection-start-line="560" selection-start-column="41" selection-end-line="560" selection-end-column="41" />
+            <state relative-caret-position="350">
+              <caret line="556" column="37" lean-forward="true" selection-start-line="556" selection-start-column="37" selection-end-line="556" selection-end-column="37" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
-                <element signature="e#973#2299#0" expanded="false" />
+                <element signature="e#952#2292#0" expanded="false" />
+                <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#Institution#0" expanded="false" />
-                <element signature="e#7700#8382#0" expanded="false" />
+                <element signature="e#7684#8366#0" expanded="false" />
                 <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
-                <marker date="1534511801886" expanded="true" signature="19243:19415" ph="&lt;div/&gt;" />
+                <marker date="1534512136013" expanded="true" signature="19215:19387" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -673,7 +674,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="77" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/components/Components.js</url>
+          <line>524</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1032,18 +1041,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="560" column="41" lean-forward="false" selection-start-line="560" selection-start-column="41" selection-end-line="560" selection-end-column="41" />
+        <state relative-caret-position="350">
+          <caret line="556" column="37" lean-forward="true" selection-start-line="556" selection-start-column="37" selection-end-line="556" selection-end-column="37" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
-            <element signature="e#973#2299#0" expanded="false" />
+            <element signature="e#952#2292#0" expanded="false" />
+            <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#Institution#0" expanded="false" />
-            <element signature="e#7700#8382#0" expanded="false" />
+            <element signature="e#7684#8366#0" expanded="false" />
             <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
-            <marker date="1534511801886" expanded="true" signature="19243:19415" ph="&lt;div/&gt;" />
+            <marker date="1534512136013" expanded="true" signature="19215:19387" ph="&lt;div/&gt;" />
           </folding>
         </state>
       </provider>

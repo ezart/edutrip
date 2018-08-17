@@ -29,7 +29,7 @@ const host ="http://edutrip.herokuapp.com/";
 
 const Nav = props =>{
     return (
-      <div className="row">
+      <div>
           <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
               <span class="navbar-toggler-icon leftmenutrigger"></span>
               <a class="navbar-brand" href="/">EDUCATION TRIPS</a>
@@ -558,10 +558,10 @@ export class Container extends Component{
         const institution = this.state.institution;
         return(
             <div>
-                <div className="container">
+                <div className="row">
                         <Nav />
                 </div>
-                <div className="container">
+                <div className="row">
                         {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
                         {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
                         {this.state.show_institution && <Institution onSubmit={this.getFromInstitution}/>}
