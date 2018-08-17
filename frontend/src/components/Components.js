@@ -557,7 +557,7 @@ export class Container extends Component{
         const time = this.state.time;
         const institution = this.state.institution;
         return(
-            <div>
+            <div className="container">
                 <Nav />
                 {this.state.show_terms && <TermsandConditions onReadTerms={()=>this.setState({show_terms:false,show_stations:true})}/>}
                 {this.state.show_stations && <PowerStation onSubmit={this.getFromPowerStation} /> }
