@@ -35,17 +35,15 @@ export class TermsandConditions extends Component {
                             <li>Kindly note that there’s no provision for visiting during Weekends and Public Holidays.</li>
                     </ul>
                 </div>
-                <div className="col-md-12">
-                    <div className="checkbox-row">
+                <div className=" col-xs-2 col-md-1">
                     <input name="terms_accept" type="checkbox" className="checkbox-inline"
                            onChange={() => this.setState((prevState)=>{
                                return {is_checked:!prevState.is_checked}
                            })}
 
                            />
-                    <label className=" col-xs-10 form-check-label"> <span className="font-weight-bold text-dark">I have read and understood the Terms and conditions
+                    <label className="form-check-label col-xs-10 col-md-11" > <span className="font-weight-bold text-dark">I have read and understood the Terms and conditions
                         above.</span></label>
-                </div>
                 </div>
                 <div className="col-md-12">
                     <div className="col-xs-12 col-md-4 offset-2">
