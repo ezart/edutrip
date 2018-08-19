@@ -37,7 +37,7 @@ export class TermsandConditions extends Component {
                 </div>
                 <div className="col-md-12">
                     <div className="checkbox-row">
-                    <input name="terms_accept" type="checkbox" className="col-xs-2 checkbox-inline"
+                    <input name="terms_accept" type="checkbox" className="checkbox-inline"
                            onChange={() => this.setState((prevState)=>{
                                return {is_checked:!prevState.is_checked}
                            })}
