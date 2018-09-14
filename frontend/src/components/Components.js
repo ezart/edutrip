@@ -213,7 +213,7 @@ class Institution extends Component{
                         <div className="form-group has-warning">
                             <label htmlFor="number"> number of visitors </label>
                             <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
-                            {this.state.number <= 80 && <div className="form-control-feedback">Please input a number between 5 and 80</div>}
+                            {this.state.number >= 80 && this.state.number !='' && <div className="form-control-feedback">Please input a number between 5 and 80</div>}
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email </label>
