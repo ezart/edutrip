@@ -124,8 +124,8 @@
       <file leaf-file-name="Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="215" column="86" lean-forward="false" selection-start-line="215" selection-start-column="86" selection-end-line="215" selection-end-column="86" />
+            <state relative-caret-position="273">
+              <caret line="220" column="30" lean-forward="true" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="n#!!block;n#getCookie#0" expanded="false" />
@@ -133,7 +133,7 @@
                 <element signature="n#PowerStationsProvider#0" expanded="false" />
                 <element signature="n#Trips#0" expanded="false" />
                 <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
-                <element signature="e#7914#8596#0" expanded="false" />
+                <element signature="e#7943#8625#0" expanded="false" />
                 <element signature="n#PowerStation#0" expanded="false" />
                 <element signature="n#BookTrip#0" expanded="false" />
                 <element signature="n#Container#0" expanded="false" />
@@ -156,8 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Power</find>
-      <find>dateform</find>
       <find>Mount</find>
       <find>component</find>
       <find>stations</find>
@@ -186,6 +184,8 @@
       <find>className</find>
       <find>className=</find>
       <find>container</find>
+      <find>this.state</find>
+      <find>this.state.number</find>
     </findStrings>
     <replaceStrings>
       <replace>\</replace>
@@ -895,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="215" column="86" lean-forward="false" selection-start-line="215" selection-start-column="86" selection-end-line="215" selection-end-column="86" />
+        <state relative-caret-position="273">
+          <caret line="220" column="30" lean-forward="true" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!block;n#getCookie#0" expanded="false" />
@@ -904,7 +904,7 @@
             <element signature="n#PowerStationsProvider#0" expanded="false" />
             <element signature="n#Trips#0" expanded="false" />
             <element signature="n#!!block;n#onSubmit#0;n#Institution#0" expanded="false" />
-            <element signature="e#7914#8596#0" expanded="false" />
+            <element signature="e#7943#8625#0" expanded="false" />
             <element signature="n#PowerStation#0" expanded="false" />
             <element signature="n#BookTrip#0" expanded="false" />
             <element signature="n#Container#0" expanded="false" />
