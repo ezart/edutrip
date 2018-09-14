@@ -210,9 +210,10 @@ class Institution extends Component{
                             <label htmlFor="city">City </label>
                              <input className="form-control" id="city" type="text" name="" onChange={(e)=>this.setState({city:e.target.value})} />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group has-warning">
                             <label htmlFor="number"> number of visitors </label>
                             <input className="form-control" id="number" type="number" name="" onChange={(e)=>this.setState({number:e.target.value})}/>
+                            <div className="form-control-feedback">Please input a number between 5 and 80</div>
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email </label>
