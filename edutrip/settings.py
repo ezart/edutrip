@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6416%f4+&^u_(@%xs17^8r)ymmat^(4rj*pc%9lwsa2_rgfm2u'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -93,9 +93,9 @@ WSGI_APPLICATION = 'edutrip.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'edutrip',
-        'USER': 'emmanuel',
-        'PASSWORD': 'emmanue93',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -122,15 +122,15 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ecom193@gmail.com'
-EMAIL_HOST_PASSWORD = 'ombadaya'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD =''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 
-DEFAULT_FROM_EMAIL = 'ecom193@gmail.com'
+DEFAULT_FROM_EMAIL = ''
 ADMINS = (
-    ('ezart', 'ecom193@email.com'),
+    ('', ''),
 )
 
 MANAGERS = ADMINS
