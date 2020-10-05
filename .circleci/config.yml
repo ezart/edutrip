@@ -34,9 +34,10 @@ jobs:
           path: test-reports/
           destination: python_app
   build_node:
+    working_directory: ~/edutrip
     docker:
       - image: cimg/node:14.13.0
-    working_directory: ~/edutrip/edutrip
+
     steps:
       - run:
           name: "install node modules"
