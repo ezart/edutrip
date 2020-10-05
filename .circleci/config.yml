@@ -48,7 +48,8 @@ workflows:
       - build_node
       - heroku/deploy-via-git:
           requires:
-            - build
+            - build_django
+            - build_node
           filters:
             branches:
               only: main
