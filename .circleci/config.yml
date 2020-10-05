@@ -34,15 +34,16 @@ jobs:
           path: test-reports/
           destination: python_app
   build_node:
-    requires: build_django
-    working_directory: "~/edutrip"
     docker:
       - image: cimg/node:14.13.0
 
     steps:
+      - checkout
       - run:
           name: "install node modules"
           command: npm run install
+
+    working_directory: "~/edutrip"
 
 workflows:
   heroku_deploy:
