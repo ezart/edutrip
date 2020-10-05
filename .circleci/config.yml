@@ -37,9 +37,9 @@ jobs:
     docker:
       - image: cimg/node:14.13.0
     steps:
-      run:
-        name: "install node modules"
-        command: npm install
+      - run:
+          name: "install node modules"
+          command: npm run install
 
 workflows:
   heroku_deploy:
