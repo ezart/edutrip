@@ -30,7 +30,7 @@ jobs:
           command: |
             python3 -m venv env
             . env/bin/activate
-            pip install -r requirements.txt
+            pip install -r requirements.txt 
     #   - run:
     #       name: "Install node modules"
     #       command: npm install
@@ -46,4 +46,4 @@ jobs:
             python3 manage.py test
       - store_artifacts:
           path: test-reports/
-          destination: python_app
+          destination: python_app 
