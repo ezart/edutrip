@@ -20,7 +20,7 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.6
-      - image: circleci/node:12.8.4
+      - image: cimg/node:14.13.0
     steps:
       - checkout
       - restore_cache:
