@@ -41,7 +41,7 @@ jobs:
       - checkout
       - run:
           name: "install node modules"
-          command: npm run install
+          command: npm install
 
     working_directory: "~/edutrip"
 
