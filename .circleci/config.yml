@@ -46,4 +46,4 @@ jobs:
             python3 manage.py test
       - store_artifacts:
           path: test-reports/
-          destination: python_app
+          destination: python_app 
