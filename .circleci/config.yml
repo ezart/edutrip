@@ -6,7 +6,7 @@ jobs:
   build_django:
     docker:
       - image: circleci/python:3.6
-    
+
     steps:
       - checkout
       - restore_cache:
@@ -33,13 +33,13 @@ jobs:
       - store_artifacts:
           path: test-reports/
           destination: python_app
- build_node:
+  build_node:
     docker:
-        - image: cimg/node:14.13.0
+      - image: cimg/node:14.13.0
     steps:
-        run:
-            name: "install node modules"
-            command: npm install
+      run:
+        name: "install node modules"
+        command: npm install
 
 workflows:
   heroku_deploy:
