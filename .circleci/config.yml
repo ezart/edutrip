@@ -36,6 +36,7 @@ jobs:
   build_node:
     docker:
       - image: cimg/node:14.13.0
+    working_directory: ~/edutrip/edutrip
     steps:
       - run:
           name: "install node modules"
