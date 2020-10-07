@@ -45,7 +45,7 @@ const Nav = props =>{
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Application status</a>
+                        <a class="nav-link" href="#">Your Application status</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Help</a>
